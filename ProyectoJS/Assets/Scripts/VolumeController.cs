@@ -21,8 +21,6 @@ public class VolumeController : MonoBehaviour
 
     public void ToggleMute()
     {
-        Debug.Log("Mute");
-
         mute = !mute;
 
         if (mute)
