@@ -1,0 +1,2542 @@
+fileFormatVersion: 2
+guid: 3fe7b3d09f79ff34c92ac0b3a5fd5c8a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PCIcons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bacb43fabead354f8b29fe2c0d72e6b
+      internalID: -1941081568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965ea74a454dd184e8f06c78b0d16c60
+      internalID: -1295709652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd283d12477524e9c29fc7b941dfc5
+      internalID: 1325319211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11db1f01ccef2864a90462996c402fdd
+      internalID: 1197402077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_4
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56393e4f72940c4a823a7049f7abd07
+      internalID: 1774777499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47eef8f8e66de284eaba887079f21b70
+      internalID: 1062751019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_6
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce6e91bc495ad6488e09ec850af1c50
+      internalID: -986734463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_7
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846707896f4fd5948b48c28bb4a742f1
+      internalID: -1519216851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_8
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643db54d32fb7b54290e9a6768a2d2bd
+      internalID: 2053120281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_9
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efed7e415fd3bc741a7a8aa47966dc0c
+      internalID: -1410831031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_10
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 2480.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fb72a2b46999f489861d09d7ad4e78
+      internalID: 1541887934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b4b83f32e74fd41821fc757cce197a
+      internalID: -1175387373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a27b689233b4d94ca212bc4ea32716b
+      internalID: 560391400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_13
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789a05d8d599ae441969ed579245088e
+      internalID: 891023354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_14
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f2f84aaa5c7db4d855a13eafe59053
+      internalID: 1753094301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_15
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2021f10def14a4a88687e7480ed3b4
+      internalID: -1509030055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_16
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81845d7a795ac6347b0b46b8c1d2c395
+      internalID: 1550167768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_17
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2c5fcbdb67db54e96f39580afd74c6
+      internalID: -1903248962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_18
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ce2f52d6c70654aa3e192d24fc431e
+      internalID: -409274042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_19
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8db61ed3452cf429ec0aae4a134326
+      internalID: -386205096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_20
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe67ecd01c23b5428b5366f716e4c52
+      internalID: 1177311354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_21
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 2205.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10996503d312b44ebc2a9c5d21017a0
+      internalID: -1618966652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52a420c4da60fa4d96118323aa9f8d9
+      internalID: 1471046696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_23
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f9e16bcc8d64a479b5ef0cb1af14e3
+      internalID: 478262367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_24
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57dbac69335ca644aecb45dff6ea3f4
+      internalID: 94047124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_25
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675e55254f6ab0b478cc49b38ea6eb1d
+      internalID: -1225069271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_26
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af42808828c3834191deca81cda7c5f
+      internalID: 1809224213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_27
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b257e9ffab1514aadd5846f6ec040a
+      internalID: 1199324128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_28
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4327afb63be44504fb494a815f2b9c11
+      internalID: -1719384847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_29
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911d927bed858348a22a40875122f37
+      internalID: 627941848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_30
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2567f9f0bb6bff24a9afb0ce31bc09bd
+      internalID: -1003490296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_31
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1ac18ee0fdcf47bb6236c2d4e7f36
+      internalID: 1350446554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_32
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1930.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0b2826e8c138948b6bcc36bd11f0cc
+      internalID: -105298440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777492ef821f1bb42b24b463f5be002f
+      internalID: -1772096978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbddaa23bee00642a350d200153f7c4
+      internalID: -1954355186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_35
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacb87c80f05cb249b1c6327d0496930
+      internalID: 1766358433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_36
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0fc93763411b04f85f86d7a6f01456
+      internalID: 211828328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_37
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138eb590721e9a64eb6005dc2c9e5b24
+      internalID: 1799370110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_38
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec14d61731dab494caf1a5509d1cb6bd
+      internalID: 929215472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_39
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca14dc3d44f8ec945a2cab18a68df21c
+      internalID: -18970381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_40
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d70cc9cde17134fa63adfa6554201c
+      internalID: -1763454857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_41
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396664d7fda1c2545a8305922f56ff6c
+      internalID: -1949099845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_42
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12c02f0de08a864ca2f1ed509537ff8
+      internalID: -1610649737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_43
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1655.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58139168c80170546bbdafe657ab7d0d
+      internalID: 2066011174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1238a689e66d3154cb02e3b9041f8f79
+      internalID: 1152558431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_45
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da38adf0ec2311f49a403b06a8aed7bb
+      internalID: -1967725632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_46
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a038d40332dddeb41a258ba74732faa7
+      internalID: 397617128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_47
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09589cf7bb27914ebf17875a5553219
+      internalID: -1843435187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_48
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bea313cdd577f4aa1732ac35bd2896
+      internalID: -255444231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_49
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac30e5e586db86c4e92a923bef71eb9b
+      internalID: 1577585778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_50
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9880064d58982b94b83545100844bfbe
+      internalID: 1659263871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_51
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d103823941278844b8d7fa7d6e72d469
+      internalID: -916275972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_52
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8196d571afdbb40af07fef74fdde56
+      internalID: -747753631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_53
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155dff4cfc6856544b3ef2f1df8cae8f
+      internalID: -1969151493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_54
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1380.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7600addb114a34390a04339a9e7be3
+      internalID: 314859715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7aae2e39ad2be4d9e55e9a54f21352
+      internalID: -1496776259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_56
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a157e8f78b33f41936043febe54383
+      internalID: -1170938838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_57
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3707fd02f2eaec445a9fd5588af3345d
+      internalID: -1649412175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_58
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fe45d25e056ff4a881da33b9751088
+      internalID: 1792407311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_59
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0d588346b613a4e8f2373bb57ade34
+      internalID: 2067908160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_60
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf424bf37951dd64b9f4b60f633c1001
+      internalID: -829865151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_61
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b94f069fa00c14a80eb5d1f523d902
+      internalID: 64270582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_62
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2392cf1e76b74643ba8068607b0ae77
+      internalID: 1071364146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_63
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41f6f8983ebdb1419d9e3848404c125
+      internalID: 1452526804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_64
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65cb8baf1b8ad8468ee93518c6381d5
+      internalID: -57143653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_65
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1105.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e904ca44a61245963eaa73e09d5ec
+      internalID: -1589355286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6318b996deed07c4ca7c8d2c2affd175
+      internalID: -1249711747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_67
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b72180dcaf31e4597d73612f04ebc8
+      internalID: -1475515588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_68
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4be0b313f2e6d34da8421b461f877de
+      internalID: 938034235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_69
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f79204a76534dc4ca908ae29fea2f11
+      internalID: -621940904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_70
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577433b4856b3eb45bcb5e97cddeba63
+      internalID: -395140228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_71
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cedffb043ea3a04388e7637fc6422c3
+      internalID: -209337237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_72
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4229052d93d7f8f4e92d479475b51097
+      internalID: -745470980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_73
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956d5255246381f49ae77c0e843f6a06
+      internalID: -1233050302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_74
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab57d666ff78e894ab19fe703c5d4819
+      internalID: -732551244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_75
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd792edae36a7f4da2f8380ab80cd65
+      internalID: -226668639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_76
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 830.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cadfe3f5e1eaed4fa9636e48e7569b3
+      internalID: 250033028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e2c1726a10972418e751b60aa2dd0e
+      internalID: -1982926644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_78
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6048655f66185a44f86e590dca1f9997
+      internalID: 52788471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_79
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77003a803d48afb468c11fe74d666fd7
+      internalID: -1017571534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_80
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3809908a4ee9daa4cbc8694e6170b611
+      internalID: -604676727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_81
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fbca4dcaf7609428c57aaaf3eec727
+      internalID: -1043191608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_82
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90edf952bb408034c964a3e5aaffa413
+      internalID: -1256916280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_83
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314e8c89d8e5de94b83ab6c10ee16f6f
+      internalID: -2010937467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_84
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b252fb8d20b68d4396652eaac20e5dc
+      internalID: -1053372752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_85
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df7e32d39fea174ba69d3e06cf1be1c
+      internalID: 563894556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_86
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa75d7c9072021419cf791950daf117
+      internalID: 1325198757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_87
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 555.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38faffdfc3203f24ba8c8432f4eaadbe
+      internalID: 1480741547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35469d939feb3ff419069bf160522b0e
+      internalID: 1667462333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_89
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2f307bd084cd34ba2ba8de1b9f7d3b
+      internalID: 2064473092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_90
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa78a6cf5b8c874eadc6b75e623e8f5
+      internalID: 1554359454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_91
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13fa8070d11ea64fa862ecd58da32c0
+      internalID: 554404727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_92
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b7009e864e87e439c82797512c6e77
+      internalID: 2104595968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_93
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffd4acf9147fce4e8a9df398445d9ce
+      internalID: -1172222540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_94
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c940dc637cd35204093d8d66daadc0da
+      internalID: 1557179422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_95
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0098cbd9bbde42a479f1d46b71042514
+      internalID: -1934692513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_96
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1371a598a30f4cd4ab79c1d99530b8c0
+      internalID: -1028339852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_97
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5500a6ae6210727408bd25bda8ce2d34
+      internalID: 1054956805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_98
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 280.4
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419a630202f69964b87c141ffaaff942
+      internalID: -442266884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf096547a1a5aa4fbbe25560e0b9e8b
+      internalID: -1604522627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acef42b0afe83cc4db185100ede08099
+      internalID: -1531958017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_101
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1199bfd61582ccc42887d8164d8513cd
+      internalID: -29026478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_102
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab299e4868fc6ec4d8f97a3476f3b306
+      internalID: 248037938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_103
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e420a2b67f0734b980e19ad72fa715
+      internalID: 2058754589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_104
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71928f7b3c23244281e295f8c18de02
+      internalID: 1782819946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_105
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87574ac1234bf964da8f12284d01d2ec
+      internalID: -1675753193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_106
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651c740e27be73b4abe738769bf9500f
+      internalID: -1486248585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_107
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c64531438600843a3793953d04ec21
+      internalID: -348731358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_108
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e5818d21becd945ba79a92fbf1abc5
+      internalID: 1834546601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCIcons_109
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 5.399994
+        width: 273.54544
+        height: 275.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f107e3e560c744498e49fd0308c948
+      internalID: -342561683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PCIcons_63: 1452526804
+      PCIcons_54: 314859715
+      PCIcons_24: 94047124
+      PCIcons_38: 929215472
+      PCIcons_55: -1496776259
+      PCIcons_88: 1667462333
+      PCIcons_17: -1903248962
+      PCIcons_23: 478262367
+      PCIcons_31: 1350446554
+      PCIcons_104: 1782819946
+      PCIcons_46: 397617128
+      PCIcons_30: -1003490296
+      PCIcons_19: -386205096
+      PCIcons_21: -1618966652
+      PCIcons_45: -1967725632
+      PCIcons_53: -1969151493
+      PCIcons_69: -621940904
+      PCIcons_71: -209337237
+      PCIcons_62: 1071364146
+      PCIcons_13: 891023354
+      PCIcons_75: -226668639
+      PCIcons_78: 52788471
+      PCIcons_96: -1028339852
+      PCIcons_9: -1410831031
+      PCIcons_85: 563894556
+      PCIcons_34: -1954355186
+      PCIcons_0: -1941081568
+      PCIcons_43: 2066011174
+      PCIcons_35: 1766358433
+      PCIcons_52: -747753631
+      PCIcons_83: -2010937467
+      PCIcons_5: 1062751019
+      PCIcons_10: 1541887934
+      PCIcons_107: -348731358
+      PCIcons_80: -604676727
+      PCIcons_47: -1843435187
+      PCIcons_33: -1772096978
+      PCIcons_64: -57143653
+      PCIcons_94: 1557179422
+      PCIcons_42: -1610649737
+      PCIcons_41: -1949099845
+      PCIcons_27: 1199324128
+      PCIcons_89: 2064473092
+      PCIcons_82: -1256916280
+      PCIcons_105: -1675753193
+      PCIcons_92: 2104595968
+      PCIcons_32: -105298440
+      PCIcons_37: 1799370110
+      PCIcons_28: -1719384847
+      PCIcons_48: -255444231
+      PCIcons_56: -1170938838
+      PCIcons_29: 627941848
+      PCIcons_70: -395140228
+      PCIcons_74: -732551244
+      PCIcons_49: 1577585778
+      PCIcons_6: -986734463
+      PCIcons_44: 1152558431
+      PCIcons_79: -1017571534
+      PCIcons_67: -1475515588
+      PCIcons_40: -1763454857
+      PCIcons_87: 1480741547
+      PCIcons_25: -1225069271
+      PCIcons_39: -18970381
+      PCIcons_101: -29026478
+      PCIcons_97: 1054956805
+      PCIcons_22: 1471046696
+      PCIcons_18: -409274042
+      PCIcons_90: 1554359454
+      PCIcons_76: 250033028
+      PCIcons_20: 1177311354
+      PCIcons_81: -1043191608
+      PCIcons_108: 1834546601
+      PCIcons_60: -829865151
+      PCIcons_100: -1531958017
+      PCIcons_73: -1233050302
+      PCIcons_65: -1589355286
+      PCIcons_109: -342561683
+      PCIcons_14: 1753094301
+      PCIcons_103: 2058754589
+      PCIcons_59: 2067908160
+      PCIcons_95: -1934692513
+      PCIcons_50: 1659263871
+      PCIcons_3: 1197402077
+      PCIcons_1: -1295709652
+      PCIcons_84: -1053372752
+      PCIcons_12: 560391400
+      PCIcons_98: -442266884
+      PCIcons_8: 2053120281
+      PCIcons_4: 1774777499
+      PCIcons_86: 1325198757
+      PCIcons_77: -1982926644
+      PCIcons_2: 1325319211
+      PCIcons_26: 1809224213
+      PCIcons_61: 64270582
+      PCIcons_51: -916275972
+      PCIcons_16: 1550167768
+      PCIcons_102: 248037938
+      PCIcons_106: -1486248585
+      PCIcons_93: -1172222540
+      PCIcons_68: 938034235
+      PCIcons_72: -745470980
+      PCIcons_11: -1175387373
+      PCIcons_99: -1604522627
+      PCIcons_91: 554404727
+      PCIcons_7: -1519216851
+      PCIcons_36: 211828328
+      PCIcons_57: -1649412175
+      PCIcons_15: -1509030055
+      PCIcons_66: -1249711747
+      PCIcons_58: 1792407311
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
