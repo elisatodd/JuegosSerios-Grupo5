@@ -1,0 +1,80 @@
+{
+    "tree": [
+        {
+            "background": "sexo",
+            "windows": [
+                {
+                    "initX": 4,
+                    "initY": -4,
+                    "type": 0,                   
+                    "text": "texto de ejemplo"
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "type": 0,
+                    "text": "texto de ejemplo 2"
+                },
+                {
+                    "initX": 20,
+                    "initY": 20,
+                    "type": 1,
+                    "path": "image.png"
+                },
+                {
+                    "initX": 20,
+                    "initY": 20,
+                    "type": 1,
+                    "path": "image2.png"
+                },
+                {
+                    "initX": 20,
+                    "initY": 20,
+                    "type": 2,
+                    "choices": [
+                        {
+                            "text": "Yes",
+                            "dst": 1
+                        },
+                        {
+                            "text": "No",
+                            "dst": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "background": "porro",
+            "windows": [
+                {
+                    "initX": 20,
+                    "initY": 20,
+                    "type": 0,
+                    "text": "texto de ejemplo3"
+                },
+                {
+                    "initX": 20,
+                    "initY": 20,
+                    "type": 1,
+                    "path": "image.png"
+                },
+                {
+                    "initX": 20,
+                    "initY": 20,
+                    "type": 2,
+                    "choices": [
+                        {
+                            "text": "Yes",
+                            "dst": 3
+                        },
+                        {
+                            "text": "No",
+                            "dst": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
