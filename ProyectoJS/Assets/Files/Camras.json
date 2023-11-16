@@ -1,0 +1,64 @@
+{
+    "tree": [
+        {
+            "background": "sexo",
+            "windows": [
+                {
+                    "type": 0,
+                    "text": "texto de ejemplo"
+                },
+                {
+                    "type": 0,
+                    "text": "texto de ejemplo 2"
+                },
+                {
+                    "type": 1,
+                    "path": "image.png"
+                },
+                {
+                    "type": 1,
+                    "path": "image2.png"
+                },
+                {
+                    "type": 2,
+                    "options": [
+                        {
+                            "text": "Yes",
+                            "dst": 1
+                        },
+                        {
+                            "text": "No",
+                            "dst": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "background": "porro",
+            "windows": [
+                {
+                    "type": 0,
+                    "text": "texto de ejemplo3"
+                },
+                {
+                    "type": 1,
+                    "path": "image.png"
+                },
+                {
+                    "type": 2,
+                    "options": [
+                        {
+                            "text": "Yes",
+                            "dst": 3
+                        },
+                        {
+                            "text": "No",
+                            "dst": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
