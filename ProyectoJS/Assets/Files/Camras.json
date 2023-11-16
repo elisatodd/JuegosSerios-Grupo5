@@ -16,16 +16,16 @@
                     "text": "texto de ejemplo 2"
                 },
                 {
-                    "initX": 20,
-                    "initY": 20,
+                    "initX": 0,
+                    "initY": 0,
                     "type": 1,
-                    "path": "image.png"
+                    "file": "Fresante"
                 },
                 {
-                    "initX": 20,
-                    "initY": 20,
+                    "initX": 0,
+                    "initY": 0,
                     "type": 1,
-                    "path": "image2.png"
+                    "file": "gato"
                 },
                 {
                     "initX": 20,
@@ -57,7 +57,7 @@
                     "initX": 20,
                     "initY": 20,
                     "type": 1,
-                    "path": "image.png"
+                    "file": "image.png"
                 },
                 {
                     "initX": 20,

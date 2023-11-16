@@ -18,7 +18,7 @@ public class Window
     public float initY;
     public int type;
     public string text; // Opcional, solo si es tipo 0
-    public string path; // Opcional, solo si es tipo 1
+    public string file; // Opcional, solo si es tipo 1
     public List<Choice> choices; // Opcional, solo si es tipo 2
 }
 
@@ -59,7 +59,7 @@ public class TreeReader : MonoBehaviour
                     }
                     else if (window.type == 1)
                     {
-                        Debug.Log("Type 1 - Path: " + window.path);
+                        Debug.Log("Type 1 - Path: " + window.file);
                     }
                     else if (window.type == 2)
                     {

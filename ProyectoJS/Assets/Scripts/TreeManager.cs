@@ -36,9 +36,10 @@ public class TreeManager : MonoBehaviour
             switch (window.type)
             {
                 case 0:
-                    go = loadTextWindow(window);
+                    //go = loadTextWindow(window);
                     break;
                 case 1:
+                    go = loadImageWindow(window);
                     break;
                 case 2:
                     break;
@@ -51,9 +52,17 @@ public class TreeManager : MonoBehaviour
 
     private GameObject loadTextWindow(Window window)
     {
-        GameObject instantiatedPrefab = Instantiate(textWindowPrefab, Vector3.zero, Quaternion.identity);
+        GameObject instantiatedPrefab = Instantiate(textWindowPrefab);
         TextMeshProUGUI textMeshPro = instantiatedPrefab.GetComponentInChildren<TextMeshProUGUI>();
         textMeshPro.text = window.text;
+        return instantiatedPrefab;
+    }
+
+    private GameObject loadImageWindow(Window window)
+    {
+        GameObject instantiatedPrefab = Instantiate(imageWindowPrefab);
+        Image image = instantiatedPrefab.GetComponentInChildren<Image>();
+        image.sprite = Resources.Load<Sprite>("Images/" + window.file);
         return instantiatedPrefab;
     }
 
