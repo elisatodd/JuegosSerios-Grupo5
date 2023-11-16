@@ -5,7 +5,7 @@ using UnityEngine;
 using System;
 
 [Serializable]
-public class Option
+public class Choice
 {
     public string text;
     public int dst;
@@ -14,14 +14,16 @@ public class Option
 [Serializable]
 public class Window
 {
+    public float initX;
+    public float initY;
     public int type;
     public string text; // Opcional, solo si es tipo 0
     public string path; // Opcional, solo si es tipo 1
-    public List<Option> options; // Opcional, solo si es tipo 2
+    public List<Choice> choices; // Opcional, solo si es tipo 2
 }
 
 [Serializable]
-public class Scene
+public class NodeData
 {
     public string background;
     public List<Window> windows;
@@ -30,22 +32,23 @@ public class Scene
 [Serializable]
 public class TreeData
 {
-    public List<Scene> tree;
+    public List<NodeData> tree;
 }
 
 public class TreeReader : MonoBehaviour
 {
     public TextAsset jsonFile; // Asigna el archivo JSON desde el Editor
+    public TreeData treeData;
 
-    void Start()
+    void Awake()
     {
         if (jsonFile != null)
         {
             string jsonString = jsonFile.text;
-            TreeData treeData = JsonUtility.FromJson<TreeData>(jsonString);
+            treeData = JsonUtility.FromJson<TreeData>(jsonString);
 
             // Accede a los datos deserializados
-            foreach (Scene scene in treeData.tree)
+            foreach (NodeData scene in treeData.tree)
             {
                 Debug.Log("Background: " + scene.background);
                 foreach (Window window in scene.windows)
@@ -60,7 +63,7 @@ public class TreeReader : MonoBehaviour
                     }
                     else if (window.type == 2)
                     {
-                        foreach (Option option in window.options)
+                        foreach (Choice option in window.choices)
                         {
                             Debug.Log("Type 2 - Option: " + option.text + ", Destination: " + option.dst);
                         }
