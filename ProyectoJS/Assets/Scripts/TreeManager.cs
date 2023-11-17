@@ -18,39 +18,51 @@ public class TreeManager : MonoBehaviour
     [SerializeField]
     GameObject choiceWindowPrefab;
 
+    List<GameObject> nodeData;
+
     // Start is called before the first frame update
     void Start()
     {
-        tree = GetComponent<TreeReader>().treeData.tree;
+        nodeData = new List<GameObject>();
+        tree = GetComponent<TreeReader>().readTree();
         loadNode(node);
     }
 
     private void loadNode(int n)
     {
+        foreach (GameObject gameObject in nodeData)
+            Destroy(gameObject);
+        nodeData.Clear();
+
+        Debug.Log("Nodo actual: " + n);
+
         NodeData node = tree[n];
+        GameObject go;
 
-        
-        foreach (Window window in node.windows)
+        background.sprite = Resources.Load<Sprite>("Backgrounds/" + node.background);
+
+        foreach (TextWindow window in node.textWindows)
         {
-            GameObject go = null;
-            switch (window.type)
-            {
-                case 0:
-                    //go = loadTextWindow(window);
-                    break;
-                case 1:
-                    go = loadImageWindow(window);
-                    break;
-                case 2:
-                    break;
-            }
-
-            if (go != null)
-                go.transform.position = new Vector2(window.initX, window.initY);
+            go = loadTextWindow(window);
+            Debug.Log(window.initX);
+            go.transform.position = new Vector2(window.initX, window.initY);
+            nodeData.Add(go);
         }
+
+        foreach (ImageWindow window in node.imageWindows)
+        {
+            go = loadImageWindow(window);
+            Debug.Log(window.initX);
+            go.transform.position = new Vector2(window.initX, window.initY);
+            nodeData.Add(go);
+        }
+
+        go = loadChoiceWindow(node.choiceWindow);
+        go.transform.position = new Vector2(node.choiceWindow.initX, node.choiceWindow.initY);
+        nodeData.Add(go);
     }
 
-    private GameObject loadTextWindow(Window window)
+    private GameObject loadTextWindow(TextWindow window)
     {
         GameObject instantiatedPrefab = Instantiate(textWindowPrefab);
         TextMeshProUGUI textMeshPro = instantiatedPrefab.GetComponentInChildren<TextMeshProUGUI>();
@@ -58,11 +70,29 @@ public class TreeManager : MonoBehaviour
         return instantiatedPrefab;
     }
 
-    private GameObject loadImageWindow(Window window)
+    private GameObject loadImageWindow(ImageWindow window)
     {
         GameObject instantiatedPrefab = Instantiate(imageWindowPrefab);
         Image image = instantiatedPrefab.GetComponentInChildren<Image>();
         image.sprite = Resources.Load<Sprite>("Images/" + window.file);
+        return instantiatedPrefab;
+    }
+
+    private GameObject loadChoiceWindow(ChoiceWindow window)
+    {
+        GameObject instantiatedPrefab = Instantiate(choiceWindowPrefab);
+
+        Button[] buttons = instantiatedPrefab.GetComponentsInChildren<Button>();
+
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            int dst = window.choices[i].dst;
+            buttons[i].onClick.AddListener(() => loadNode(dst));
+
+            TextMeshProUGUI textMeshPro = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
+            textMeshPro.text = window.choices[i].text;        
+        }
+
         return instantiatedPrefab;
     }
 

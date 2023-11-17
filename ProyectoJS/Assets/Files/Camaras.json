@@ -1,0 +1,99 @@
+{
+    "tree": [
+        {
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "texto de ejemplo dddd"
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "texto de ejemplo 2"
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "Fresante"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "gato"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Nodo 1",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Nodo 2",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },
+        {
+            "background": "FONDO2",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "texto de ejemplo nodo 1"
+                }
+            ],       
+            "choiceWindow":              
+            {
+                "initX": -2,
+                "initY": 2,
+                "choices": [
+                    {
+                        "text": "Nodo 0",
+                        "dst": 0
+                    },
+                    {
+                        "text": "Nodo 2",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },
+        {
+            "background": "FONDO3",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "texto de ejemplo nodo 2"
+                }
+            ],       
+            "choiceWindow":              
+            {
+                "initX": -2,
+                "initY": 2,
+                "choices": [
+                    {
+                        "text": "Nodo 0",
+                        "dst": 0
+                    },
+                    {
+                        "text": "Nodo 1",
+                        "dst": 1
+                    }
+                ]
+            }
+            
+        }
+    ]
+}
