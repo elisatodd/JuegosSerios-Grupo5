@@ -9,6 +9,7 @@ public class TreeManager : MonoBehaviour
     List<NodeData> tree;
     int node = 0;
 
+    [Header("Valores base")]
     [SerializeField]
     Image background;
     [SerializeField]
@@ -20,18 +21,24 @@ public class TreeManager : MonoBehaviour
 
     List<GameObject> nodeData;
 
-    // Start is called before the first frame update
+    [Header("Animación de minimizar")]
+    [SerializeField] private float minimizeDuration = 0.25f;
+    [SerializeField] private float targetYPosition = -5; 
+
     void Start()
     {
         nodeData = new List<GameObject>();
         tree = GetComponent<TreeReader>().readTree();
-        loadNode(node);
+        StartCoroutine(loadNode(node));
     }
 
-    private void loadNode(int n)
+    private IEnumerator loadNode(int n)
     {
         foreach (GameObject gameObject in nodeData)
+        {
+            yield return StartCoroutine(MinimizeObject(gameObject));
             Destroy(gameObject);
+        }
         nodeData.Clear();
 
         Debug.Log("Nodo actual: " + n);
@@ -62,6 +69,30 @@ public class TreeManager : MonoBehaviour
         nodeData.Add(go);
     }
 
+    IEnumerator MinimizeObject(GameObject obj)
+    {
+        Vector3 originalScale = obj.transform.localScale;
+        Vector3 targetScale = Vector3.zero;
+
+        Vector3 originalPosition = obj.transform.position;
+        Vector3 targetPosition = new Vector3(originalPosition.x, targetYPosition, originalPosition.z);
+
+        float elapsedTime = 0f;
+
+        while (elapsedTime < minimizeDuration)
+        {
+            obj.transform.localScale = Vector3.Lerp(originalScale, targetScale, elapsedTime / minimizeDuration);
+            obj.transform.position = Vector3.Lerp(originalPosition, targetPosition, elapsedTime / minimizeDuration);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Asegurarse de que el objeto tenga la escala final y posición exactas
+        obj.transform.localScale = targetScale;
+        obj.transform.position = targetPosition;
+    }
+
     private GameObject loadTextWindow(TextWindow window)
     {
         GameObject instantiatedPrefab = Instantiate(textWindowPrefab);
@@ -87,7 +118,7 @@ public class TreeManager : MonoBehaviour
         for (int i = 0; i < buttons.Length; i++)
         {
             int dst = window.choices[i].dst;
-            buttons[i].onClick.AddListener(() => loadNode(dst));
+            buttons[i].onClick.AddListener(() => StartCoroutine(loadNode(dst)));
 
             TextMeshProUGUI textMeshPro = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
             textMeshPro.text = window.choices[i].text;        
