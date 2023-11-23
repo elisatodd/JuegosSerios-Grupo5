@@ -21,8 +21,9 @@ public class TreeManager : MonoBehaviour
 
     List<GameObject> nodeData;
 
-    [Header("Animación de minimizar")]
+    [Header("Animaciones de las ventanas")]
     [SerializeField] private float minimizeDuration = 0.25f;
+    [SerializeField] private float maximizeDuration = 0.25f;
     [SerializeField] private float targetYPosition = -5; 
 
     void Start()
@@ -41,7 +42,7 @@ public class TreeManager : MonoBehaviour
         }
         nodeData.Clear();
 
-        Debug.Log("Nodo actual: " + n);
+        // Debug.Log("Nodo actual: " + n);
 
         NodeData node = tree[n];
 
@@ -54,6 +55,27 @@ public class TreeManager : MonoBehaviour
             nodeData.Add(loadImageWindow(window));
         
         nodeData.Add(loadChoiceWindow(node.choiceWindow));
+
+        foreach (GameObject gameObject in nodeData)
+        {
+            gameObject.SetActive(true);
+            yield return StartCoroutine(MaximizeObject(gameObject));
+        }
+    }
+    IEnumerator MaximizeObject(GameObject obj)
+    {
+        Vector3 originalScale = obj.transform.localScale;
+        Vector3 targetScale = originalScale;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < maximizeDuration)
+        {
+            obj.transform.localScale = Vector3.Lerp(Vector3.zero, targetScale, elapsedTime / maximizeDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        // Asegurarse de que el objeto tenga la escala final exacta
+        obj.transform.localScale = targetScale;
     }
 
     IEnumerator MinimizeObject(GameObject obj)
@@ -83,6 +105,7 @@ public class TreeManager : MonoBehaviour
     private GameObject loadTextWindow(TextWindow window)
     {
         GameObject instantiatedPrefab = Instantiate(textWindowPrefab);
+        instantiatedPrefab.SetActive(false);
         TextMeshProUGUI textMeshPro = instantiatedPrefab.GetComponentInChildren<TextMeshProUGUI>();
         textMeshPro.text = window.text;
         instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
@@ -92,6 +115,7 @@ public class TreeManager : MonoBehaviour
     private GameObject loadImageWindow(ImageWindow window)
     {
         GameObject instantiatedPrefab = Instantiate(imageWindowPrefab);
+        instantiatedPrefab.SetActive(false);
         Image image = instantiatedPrefab.GetComponentInChildren<Image>();
         image.sprite = Resources.Load<Sprite>("Images/" + window.file);
         instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
@@ -101,6 +125,8 @@ public class TreeManager : MonoBehaviour
     private GameObject loadChoiceWindow(ChoiceWindow window)
     {
         GameObject instantiatedPrefab = Instantiate(choiceWindowPrefab);
+
+        instantiatedPrefab.SetActive(false);
 
         Button[] buttons = instantiatedPrefab.GetComponentsInChildren<Button>();
 
