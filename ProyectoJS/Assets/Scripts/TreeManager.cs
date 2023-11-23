@@ -44,29 +44,16 @@ public class TreeManager : MonoBehaviour
         Debug.Log("Nodo actual: " + n);
 
         NodeData node = tree[n];
-        GameObject go;
 
         background.sprite = Resources.Load<Sprite>("Backgrounds/" + node.background);
 
         foreach (TextWindow window in node.textWindows)
-        {
-            go = loadTextWindow(window);
-            Debug.Log(window.initX);
-            go.transform.position = new Vector2(window.initX, window.initY);
-            nodeData.Add(go);
-        }
-
+            nodeData.Add(loadTextWindow(window));
+        
         foreach (ImageWindow window in node.imageWindows)
-        {
-            go = loadImageWindow(window);
-            Debug.Log(window.initX);
-            go.transform.position = new Vector2(window.initX, window.initY);
-            nodeData.Add(go);
-        }
-
-        go = loadChoiceWindow(node.choiceWindow);
-        go.transform.position = new Vector2(node.choiceWindow.initX, node.choiceWindow.initY);
-        nodeData.Add(go);
+            nodeData.Add(loadImageWindow(window));
+        
+        nodeData.Add(loadChoiceWindow(node.choiceWindow));
     }
 
     IEnumerator MinimizeObject(GameObject obj)
@@ -98,6 +85,7 @@ public class TreeManager : MonoBehaviour
         GameObject instantiatedPrefab = Instantiate(textWindowPrefab);
         TextMeshProUGUI textMeshPro = instantiatedPrefab.GetComponentInChildren<TextMeshProUGUI>();
         textMeshPro.text = window.text;
+        instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
         return instantiatedPrefab;
     }
 
@@ -106,6 +94,7 @@ public class TreeManager : MonoBehaviour
         GameObject instantiatedPrefab = Instantiate(imageWindowPrefab);
         Image image = instantiatedPrefab.GetComponentInChildren<Image>();
         image.sprite = Resources.Load<Sprite>("Images/" + window.file);
+        instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
         return instantiatedPrefab;
     }
 
@@ -123,6 +112,8 @@ public class TreeManager : MonoBehaviour
             TextMeshProUGUI textMeshPro = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
             textMeshPro.text = window.choices[i].text;        
         }
+
+        instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
 
         return instantiatedPrefab;
     }
