@@ -1,29 +1,138 @@
 {
-    "tree": [
+    "tree": [ 
         {
+            "id": "0",
             "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": -6,
+                    "initY": 2,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 0,
+                    "initY": 2,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -6,
+                    "initY": -3,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": -2,
+                    "initY": -3,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 4,
+                    "initY": 2,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 4,
+                "initY": -3,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 9
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 1
+                    }
+                ]
+            }
+            
+        },
+        {
+            "id": "1",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": -2,
+                    "initY": 2,                
+                    "text": "La seguridad ha caído a niveles críticos. Los delincuentes andan por sus anchas por la ciudad y los habitantes optan cada vez más en quedarse en sus casas hasta que esto pase."
+                },
+                {
+                    "initX": 4,
+                    "initY": 2,                
+                    "text": "Se ha vuelto a plantear la decisión de la instalación de las cámaras como forma de intentar acabar con esta situación."
+                }
+            ],       
+            "choiceWindow":              
+            {
+                "initX": 4,
+                "initY": -3,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras",
+                        "dst": 6
+                    },
+                    {
+                        "text": "Mantenerse sin cámaras",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },
+        {
+            "id": "2",
+            "background": "FONDO2",
+            "textWindows": [
+                {
+                    "initX": -2,
+                    "initY": 2,                
+                    "text": "Los ciudadanos aunque tengan miedo a salir tienen que abastecerse de los recursos necesarios. Por ello se plantea que los propios comercios sean los encargados de la seguridad en estos."
+                },
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Se quiere aceptar una ley que permita la instalación de cámaras de seguridad como posible modo de mejora de la seguridad en los comercios privados para poder seguir adelante. ¿Dejar que los comercios instalen cámaras?"
+                }
+            ],       
+            "choiceWindow":              
+            {
+                "initX": -2,
+                "initY": 2,
+                "choices": [
+                    {
+                        "text": "Aceptar la ley de la instalación de las cámaras",
+                        "dst": 6
+                    },
+                    {
+                        "text": "Denegar la ley de la instalación de las cámaras",
+                        "dst": 3
+                    }
+                ]
+            }
+            
+        },
+        {
+            "id": "3",
+            "background": "FONDO2",
             "textWindows": [
                 {
                     "initX": 4,
                     "initY": -4,                
-                    "text": "texto de ejemplo dddd"
+                    "text": "Sin la instalación de las cámaras en los comercios estos se han convertido en un blanco fácil para cometer crímenes sin ser perseguidos."
                 },
                 {
                     "initX": 7,
                     "initY": -4,
-                    "text": "texto de ejemplo 2"
+                    "text": "Los negocios vuelven a pedir la posibles instalación las cámaras como medida para poder frenar la horda de crímenes que afronta la ciudad."
                 }
             ],
             "imageWindows": [
                 {
                     "initX": -3,
                     "initY": 0,
-                    "file": "Fresante"
-                },
-                {
-                    "initX": 3,
-                    "initY": 0,
-                    "file": "gato"
+                    "file": "delCircular"
                 }
             ],
             "choiceWindow":              
@@ -32,63 +141,1044 @@
                 "initY": -2,
                 "choices": [
                     {
-                        "text": "Nodo 1",
+                        "text": "Aceptar la ley de la identificación",
                         "dst": 1
                     },
                     {
-                        "text": "Nodo 2",
+                        "text": "Mantener sin aprobar la ley de la instalación de las cámaras",
                         "dst": 2
                     }
                 ]
             }                          
         },
         {
+            "id": "4",
             "background": "FONDO2",
             "textWindows": [
                 {
                     "initX": 4,
                     "initY": -4,                
-                    "text": "texto de ejemplo nodo 1"
+                    "text": "Sin la aprobación de la ley para las cámaras en lugares públicos los negocios están en una situación crítica y la incertidumbre sobre lo que pasará es abrumadora."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "Como otra posible propuesta, los dueños de los comercios han solicitado que para poder entrar en los comercios se tendrá que aportar la identificación oficial de cada habitante para poder ver el culpable en caso de que se produzca algún crimen."
                 }
-            ],       
+            ],
             "choiceWindow":              
             {
-                "initX": -2,
-                "initY": 2,
+                "initX": 0,
+                "initY": -2,
                 "choices": [
                     {
-                        "text": "Nodo 0",
-                        "dst": 0
+                        "text": "Aceptar la ley de la identificación",
+                        "dst": 5
                     },
                     {
-                        "text": "Nodo 2",
+                        "text": "Denegar la ley de la identificación",
+                        "dst": 20
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "5",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Gracias a la ley los crímenes han bajado considerablemente dentro de los negocios. Por ello ahora se busca la recuperación económica de estos. Se ha planteado el uso por parte de los negocios de la información obtenida para mejorar, con la ayuda de las empresas de los suministros, la experiencia de los compradores de estos negocios."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "ley1"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Mantener la ley de la identificación",
+                        "dst": 21
+                    },
+                    {
+                        "text": "Abolir la ley de la identificación",
+                        "dst": 20
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "6",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Los negocios han logrado salir un poco adelante y han sido capaces de mejorar la seguridad en sus negocios, aunque las cámaras permitidas por la ley son muy insuficientes y ni de lejos han conseguido acabar con la delincuencia en estos. Además siguen con miedo debido a la gran tasa de criminalidad en las calles de Confidencia. Se ha mandado al gobierno el siguiente comunicado."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "Nosotros el conjunto de comercios de la ciudad de Confidencia, agradecemos el uso de cámaras en nuestros negocios. Pero pensamos que son cámaras que no permiten defender nuestros negocios de manera eficaz. Queremos proponer la mejora de las cámaras ya instaladas para poder blindar contra cualquier crimen nuestros negocios."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "Aquí te muestro alguna de las opiniones de los habitantes de Confidencia en base a esta propuesta:"
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "'- Creo que con esta mejora no conseguirá nada ya que con las cámaras actuales ya se ha conseguido la máxima seguridad que se podía conseguir.  Con estas mejoras no se conseguirá nada.'"
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "'- Es la mejor idea del mundo, así los delincuentes ya no querrán ni entrar ya que estarán siendo todo el tiempo vigilados. No hay nada que se le escaparán a las cámaras.'"
+                }                
+
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "ley1"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar mejorar la actual ley",
+                        "dst": 7
+                    },
+                    {
+                        "text": "Denegar mejorar la actual ley",
+                        "dst": 4
+                    }
+                ]
+            }
+        },       
+        {
+            "id": "7",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Sin las mejoras para las cámaras los negocios cada vez más van perdiendo la seguridad que obtuvieron al instalarlas."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "Se propone que las cámaras instaladas puedan grabar parte de la vía pública respectiva a su negocio para así poder obtener información como la dirección en la que huyen los posibles delincuentes o su posible método de escape."
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Mejorar la ley de cámaras en lugares privados",
+                        "dst": 8
+                    },
+                    {
+                        "text": "No mejorar la ley de cámaras en lugares privados",
+                        "dst": 22
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "8",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Las mejoras implementadas en los negocios han conseguido blindarse contra los crímenes. Gracias a que tienen una visión más amplia se ha conseguido que los delincuentes opten por no atracar estos lugares."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "Se ha propuesto de nuevo implementar cámaras de seguridad en las calles de nuevo. Ya que debido a que los crímenes ya no son cometidos en los establecimientos los números de crímenes en la vía pública ha aumentado sin precedentes."
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Establecer cámaras de seguridad en la calle",
+                        "dst": 9
+                    },
+                    {
+                        "text": "No establecer las cámaras en la calle",
+                        "dst": 22
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "9",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Con la instalación de las cámaras de seguridad se ha logrado mantener a los delincuentes más a raya pero estos ahora han pasado a realizar actuar en los lugares más concurridos de la ciudad. Por lo que las cámaras son incapaces de poder observar estos delitos de manera clara."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "Se ha propuesto implementar una mejora en las cámaras para poder aplacar el crimen. Esto sería añadirles un control facial que permitiría obtener de manera más clara a los delincuentes en la multitud."
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la mejora de cámaras",
+                        "dst": 10
+                    },
+                    {
+                        "text": "Denegar la mejora de cámaras",
+                        "dst": 11
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "10",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
                         "dst": 2
                     }
                 ]
             }
             
-        },
-        {
-            "background": "FONDO3",
+        },       {
+            "id": "11",
+            "background": "FONDO1",
             "textWindows": [
                 {
                     "initX": 4,
                     "initY": -4,                
-                    "text": "texto de ejemplo nodo 2"
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
                 }
-            ],       
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
             "choiceWindow":              
             {
-                "initX": -2,
-                "initY": 2,
+                "initX": 0,
+                "initY": -2,
                 "choices": [
                     {
-                        "text": "Nodo 0",
-                        "dst": 0
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
                     },
                     {
-                        "text": "Nodo 1",
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "12",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
                         "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "13",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "14",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "15",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "16",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "17",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "18",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "19",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "20",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "21",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "22",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "23",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "24",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "25",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
+                    }
+                ]
+            }
+            
+        },       {
+            "id": "26",
+            "background": "FONDO1",
+            "textWindows": [
+                {
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                },
+                {
+                    "initX": 7,
+                    "initY": -4,
+                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "delGraf"
+                },
+                {
+                    "initX": 3,
+                    "initY": 0,
+                    "file": "jefe"
+                }
+            ],
+            "choiceWindow":              
+            {
+                "initX": 0,
+                "initY": -2,
+                "choices": [
+                    {
+                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "dst": 1
+                    },
+                    {
+                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "dst": 2
                     }
                 ]
             }

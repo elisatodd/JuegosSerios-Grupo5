@@ -2,16 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 [RequireComponent(typeof(BoxCollider2D))]
 public class ClickDrag : MonoBehaviour
 {
+    public static int currentLayerOrder = 1;
+
     private BoxCollider2D boxCollider;
     private bool dragging = false;
     private Vector2 offset;
 
+    private int initialOrderInLayer;
+
+    private SpriteRenderer spriteRenderer;
+
+    [SerializeField] private Canvas myCanvas;
+
     private void Awake()
     {
         boxCollider = this.GetComponent<BoxCollider2D>();
+        spriteRenderer = this.GetComponent<SpriteRenderer>();
+
+        initialOrderInLayer = currentLayerOrder;
+        currentLayerOrder++;
+
+        spriteRenderer.sortingOrder = initialOrderInLayer;
+        myCanvas.sortingOrder = initialOrderInLayer;
     }
 
     private void OnMouseDown()
