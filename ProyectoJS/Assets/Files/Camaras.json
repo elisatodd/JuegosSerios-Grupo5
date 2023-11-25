@@ -1,6 +1,30 @@
 {
     "tree": [ 
         {
+            "textIcons": [
+                {
+                    "icon": 2,
+                    "initX": 2,
+                    "initY": 0,               
+                    "textWindow": {
+                        "initX": -3,
+                        "initY": 0,
+                        "text": "Fresante"
+                    }
+                }
+            ],
+            "imageIcons": [
+                {
+                    "icon": 1,
+                    "initX": 2,
+                    "initY": 2,               
+                    "imageWindow": {
+                        "initX": -3,
+                        "initY": 0,
+                        "file": "Fresante"
+                    }
+                }
+            ],
             "id": "0",
             "background": "FONDO1",
             "textWindows": [
