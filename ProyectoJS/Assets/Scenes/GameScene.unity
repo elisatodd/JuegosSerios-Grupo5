@@ -426,8 +426,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jsonFile: {fileID: 4900000, guid: 81b718328ee0250449edebb769967fac, type: 3}
-  treeData:
-    tree: []
 --- !u!4 &1297776752
 Transform:
   m_ObjectHideFlags: 0
@@ -459,6 +457,16 @@ MonoBehaviour:
   textWindowPrefab: {fileID: 1251031574356137935, guid: c8aa17a08089c90468f302ca3a0693b0, type: 3}
   imageWindowPrefab: {fileID: 6602269737030619827, guid: d2e98e1bf5d92014e8803298ae80b843, type: 3}
   choiceWindowPrefab: {fileID: 127255778661630376, guid: 7363c873b6f269b46aafb0f8c26381b4, type: 3}
+  iconPrefab: {fileID: 3188211661117108898, guid: cd6045e1f14678c48b941dbc41895a00, type: 3}
+  icons:
+  - {fileID: 21300000, guid: edb3160ef6d14994ba95180b4992a2b0, type: 3}
+  - {fileID: -1600047480, guid: 522347cd6e297ce40a15523a090380a7, type: 3}
+  - {fileID: -2010937467, guid: 3fe7b3d09f79ff34c92ac0b3a5fd5c8a, type: 3}
+  - {fileID: -1649412175, guid: 3fe7b3d09f79ff34c92ac0b3a5fd5c8a, type: 3}
+  - {fileID: -1941081568, guid: 3fe7b3d09f79ff34c92ac0b3a5fd5c8a, type: 3}
+  minimizeDuration: 0.25
+  maximizeDuration: 0.25
+  targetYPosition: -5
 --- !u!1 &1492741263
 GameObject:
   m_ObjectHideFlags: 0

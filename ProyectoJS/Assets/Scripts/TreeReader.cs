@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using System;
+using Newtonsoft.Json;
 
 public class Window
 {
@@ -39,9 +40,13 @@ public class Choice
 public class NodeData
 {
     public string background;
+
     public List<TextWindow> textWindows;
     public List<ImageWindow> imageWindows;
     public ChoiceWindow choiceWindow;
+
+    public List<TextIcon> textIcons;
+    public List<ImageIcon> imageIcons;
 }
 
 [Serializable]
@@ -49,6 +54,27 @@ public class TreeData
 {
     public List<NodeData> tree;
 }
+
+public class Icon 
+{
+    public int icon;
+    public float initX;
+    public float initY;
+}
+
+[Serializable]
+public class TextIcon : Icon
+{
+    public TextWindow textWindow;
+}
+
+[Serializable]
+public class ImageIcon : Icon
+{
+    public ImageWindow imageWindow;
+}
+
+
 
 public class TreeReader : MonoBehaviour
 {

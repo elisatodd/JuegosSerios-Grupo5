@@ -18,6 +18,10 @@ public class TreeManager : MonoBehaviour
     GameObject imageWindowPrefab;
     [SerializeField]
     GameObject choiceWindowPrefab;
+    [SerializeField]
+    GameObject iconPrefab;
+    [SerializeField]
+    Sprite[] icons;
 
     List<GameObject> nodeData;
 
@@ -42,8 +46,6 @@ public class TreeManager : MonoBehaviour
         }
         nodeData.Clear();
 
-        // Debug.Log("Nodo actual: " + n);
-
         NodeData node = tree[n];
 
         background.sprite = Resources.Load<Sprite>("Backgrounds/" + node.background);
@@ -56,12 +58,32 @@ public class TreeManager : MonoBehaviour
         
         nodeData.Add(loadChoiceWindow(node.choiceWindow));
 
+        List<GameObject> hiddenWindows = new List<GameObject>();
+        GameObject win;
+
+        foreach (TextIcon icon in node.textIcons)
+        {
+            win = loadTextWindow(icon.textWindow);
+            hiddenWindows.Add(win);
+            nodeData.Add(loadIcon(icon, win));
+        }
+            
+        foreach (ImageIcon icon in node.imageIcons)
+        {
+            win = loadImageWindow(icon.imageWindow);
+            hiddenWindows.Add(win);
+            nodeData.Add(loadIcon(icon, win));
+        }
+            
         foreach (GameObject gameObject in nodeData)
         {
             gameObject.SetActive(true);
             yield return StartCoroutine(MaximizeObject(gameObject));
         }
+
+        nodeData.AddRange(hiddenWindows);
     }
+
     IEnumerator MaximizeObject(GameObject obj)
     {
         Vector3 originalScale = obj.transform.localScale;
@@ -142,6 +164,36 @@ public class TreeManager : MonoBehaviour
         instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
 
         return instantiatedPrefab;
+    }
+
+    private GameObject loadIcon(Icon icon, GameObject window)
+    {
+        GameObject instantiatedPrefab = Instantiate(iconPrefab);
+
+        instantiatedPrefab.SetActive(false);
+
+        instantiatedPrefab.GetComponentInChildren<Image>().sprite = icons[icon.icon];
+
+        Button button = instantiatedPrefab.GetComponentInChildren<Button>();
+        button.onClick.AddListener(() => onIconClick(window));      
+
+        instantiatedPrefab.transform.position = new Vector2(icon.initX, icon.initY);
+
+        return instantiatedPrefab;
+    }
+
+    private void onIconClick(GameObject window)
+    {
+        if (!window.activeSelf)
+        {
+            window.SetActive(true);
+            StartCoroutine(MaximizeObject(window));
+        }
+        else
+        {        
+            StartCoroutine(MinimizeObject(window));
+            //window.SetActive(false);
+        }
     }
 
 }
