@@ -207,8 +207,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 263.94034, y: -422.35}
-  m_SizeDelta: {x: 527.88, y: 703.92}
+  m_AnchoredPosition: {x: 262.86, y: -438.93}
+  m_SizeDelta: {x: 456.57, y: 737.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1251031574450569912
 CanvasRenderer:
@@ -240,8 +240,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hola, soy un texto placeholder. Aqui se escribe la info del caso.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fb1da05fc3dde7349b2bc3b5bcde3612, type: 2}
-  m_sharedMaterial: {fileID: -6411887151474869399, guid: fb1da05fc3dde7349b2bc3b5bcde3612, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 357a08088251fc744bce17d9c4a80cf6, type: 2}
+  m_sharedMaterial: {fileID: -7731194394538345027, guid: 357a08088251fc744bce17d9c4a80cf6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -265,14 +265,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 61.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 37.58786, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

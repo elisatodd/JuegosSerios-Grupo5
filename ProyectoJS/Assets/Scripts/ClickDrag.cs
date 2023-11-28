@@ -7,7 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class ClickDrag : MonoBehaviour
 {
-    public static int currentLayerOrder = 1;
+    public static int currentLayerOrder = 2;
 
     private BoxCollider2D boxCollider;
     private bool dragging = false;
@@ -38,6 +38,9 @@ public class ClickDrag : MonoBehaviour
         {
             dragging = true;
             offset = transform.position - mousePos;
+            spriteRenderer.sortingOrder = (currentLayerOrder + 1);
+            myCanvas.sortingOrder = spriteRenderer.sortingOrder;
+            currentLayerOrder = (currentLayerOrder + 1) % 32767;
         }
     }
 
