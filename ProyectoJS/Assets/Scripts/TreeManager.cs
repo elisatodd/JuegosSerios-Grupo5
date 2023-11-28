@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TreeManager : MonoBehaviour
@@ -154,11 +155,19 @@ public class TreeManager : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            int dst = window.choices[i].dst;
-            buttons[i].onClick.AddListener(() => StartCoroutine(loadNode(dst)));
-
             TextMeshProUGUI textMeshPro = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
-            textMeshPro.text = window.choices[i].text;        
+            textMeshPro.text = window.choices[i].text;
+
+            int dst = window.choices[i].dst;
+            if (dst >= 0)
+                buttons[i].onClick.AddListener(() => StartCoroutine(loadNode(dst)));
+            else
+            {
+                buttons[i].onClick.AddListener(() => SceneManager.LoadScene("MainMenu"));
+                for (int j = i + 1; j < buttons.Length; j++)
+                    Destroy(buttons[j].gameObject);
+                break;
+            }           
         }
 
         instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);

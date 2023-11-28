@@ -457,6 +457,7 @@ MonoBehaviour:
   textWindowPrefab: {fileID: 1251031574356137935, guid: c8aa17a08089c90468f302ca3a0693b0, type: 3}
   imageWindowPrefab: {fileID: 6602269737030619827, guid: d2e98e1bf5d92014e8803298ae80b843, type: 3}
   choiceWindowPrefab: {fileID: 127255778661630376, guid: 7363c873b6f269b46aafb0f8c26381b4, type: 3}
+  buttonPrefab: {fileID: 1093377127845344822, guid: 924f04315f0572143b9c2b2f4a4a500f, type: 3}
   iconPrefab: {fileID: 3188211661117108898, guid: cd6045e1f14678c48b941dbc41895a00, type: 3}
   icons:
   - {fileID: 21300000, guid: edb3160ef6d14994ba95180b4992a2b0, type: 3}
