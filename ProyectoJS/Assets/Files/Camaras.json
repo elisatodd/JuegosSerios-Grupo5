@@ -116,14 +116,14 @@
                 },
                 {
                     "initX": 4,
-                    "initY": -4,                
+                    "initY": 2,                
                     "text": "Se quiere aceptar una ley que permita la instalación de cámaras de seguridad como posible modo de mejora de la seguridad en los comercios privados para poder seguir adelante. ¿Dejar que los comercios instalen cámaras?"
                 }
             ],       
             "choiceWindow":              
             {
-                "initX": -2,
-                "initY": 2,
+                "initX": 4,
+                "initY": -3,
                 "choices": [
                     {
                         "text": "Aceptar la ley de la instalación de las cámaras",
@@ -148,21 +148,21 @@
                 },
                 {
                     "initX": 4,
-                    "initY": -4,
+                    "initY": 2,
                     "text": "Los negocios vuelven a pedir la posibles instalación las cámaras como medida para poder frenar la horda de crímenes que afronta la ciudad."
                 }
             ],
             "imageWindows": [
                 {
                     "initX": -2,
-                    "initY": 2,
+                    "initY": -3,
                     "file": "delCircular"
                 }
             ],
             "choiceWindow":              
             {
-                "initX": 0,
-                "initY": -2,
+                "initX": 4,
+                "initY": -3,
                 "choices": [
                     {
                         "text": "Aceptar la ley de la identificación",
@@ -186,14 +186,14 @@
                 },
                 {
                     "initX": 4,
-                    "initY": -4,
+                    "initY": 2,
                     "text": "Como otra posible propuesta, los dueños de los comercios han solicitado que para poder entrar en los comercios se tendrá que aportar la identificación oficial de cada habitante para poder ver el culpable en caso de que se produzca algún crimen."
                 }
             ],
             "choiceWindow":              
             {
-                "initX": -2,
-                "initY": 2,
+                "initX": 4,
+                "initY": -3,
                 "choices": [
                     {
                         "text": "Aceptar la ley de la identificación",
@@ -773,11 +773,7 @@
                 "choices": [
                     {
                         "text": "Volver al menú",
-                        "dst": 1
-                    },
-                    {
-                        "text": "Volver al menú",
-                        "dst": 1
+                        "dst": -1
                     }
                 ]
             }
@@ -821,11 +817,7 @@
                 "choices": [
                     {
                         "text": "Volver al menú",
-                        "dst": 1
-                    },
-                    {
-                        "text": "Volver al menú",
-                        "dst": 1
+                        "dst": -1
                     }
                 ]
             }
@@ -864,11 +856,7 @@
                 "choices": [
                     {
                         "text": "Volver al menú",
-                        "dst": 1
-                    },
-                    {
-                        "text": "Volver al menú",
-                        "dst": 1
+                        "dst": -1
                     }
                 ]
             }
@@ -902,11 +890,7 @@
                 "choices": [
                     {
                         "text": "Volver al menú",
-                        "dst": 1
-                    },
-                    {
-                        "text": "Volver al menú",
-                        "dst": 1
+                        "dst": -1
                     }
                 ]
             }
@@ -945,11 +929,7 @@
                 "choices": [
                     {
                         "text": " Volver al menú",
-                        "dst": 1
-                    },
-                    {
-                        "text": "Volver al menú",
-                        "dst": 1
+                        "dst": -1
                     }
                 ]
             }
@@ -971,11 +951,7 @@
                 "choices": [
                     {
                         "text": "Volver al menú",
-                        "dst": 1
-                    },
-                    {
-                        "text": "Volver al menú",
-                        "dst": 1
+                        "dst": -1
                     }
                 ]
             }
