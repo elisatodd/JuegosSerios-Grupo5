@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0024871826, y: -36.07}
-  m_SizeDelta: {x: 0.01, y: -72.13}
+  m_AnchoredPosition: {x: 7.5700073, y: -0.0025024414}
+  m_SizeDelta: {x: 15.15, y: 0.0050049}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6602269735328939135
 CanvasRenderer:
@@ -81,8 +81,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 250}
+  m_AnchoredPosition: {x: 0.000023842, y: 0.0000019073}
+  m_SizeDelta: {x: 677.58, y: 613.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6602269735593919897
 CanvasRenderer:
@@ -160,8 +160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.0294, y: 0.0414}
-  m_SizeDelta: {x: 364.2339, y: 438.5449}
+  m_AnchoredPosition: {x: -0.0407, y: -0.2274}
+  m_SizeDelta: {x: 735.0521, y: 674.723}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &6602269736057195744
 Canvas:
@@ -264,7 +264,7 @@ Transform:
   m_GameObject: {fileID: 6602269737030619827}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7572301, y: 0.74003625, z: 1}
+  m_LocalScale: {x: 0.75723004, y: 0.74003625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6602269736057195748}
@@ -317,7 +317,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 3.4260042, y: 4.052045}
+  m_Size: {x: 7.104756, y: 7.135123}
   m_AdaptiveModeThreshold: 0.8
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -336,18 +336,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006356895, y: 1.7164743}
+  m_Offset: {x: -0.011160493, y: 3.2400894}
   m_SpriteTilingProperty:
     border: {x: 1.6999999, y: 0.14999999, z: 0.16, w: 0.62}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 6.87, y: 3.26}
-    newSize: {x: 3.4260042, y: 4.052045}
+    newSize: {x: 7.104756, y: 7.135123}
     adaptiveTilingThreshold: 0.8
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.42483, y: 0.5824685}
+  m_Size: {x: 7.0335083, y: 0.6183176}
   m_EdgeRadius: 0
 --- !u!114 &6602269737030619824
 MonoBehaviour:
