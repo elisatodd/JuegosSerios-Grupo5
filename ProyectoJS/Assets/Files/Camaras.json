@@ -211,27 +211,27 @@
             "background": "FONDO1",
             "textWindows": [
                 {
-                    "initX": 4,
-                    "initY": -4,                
+                    "initX": -2,
+                    "initY": 2,                
                     "text": "Gracias a la ley los crímenes han bajado considerablemente dentro de los negocios. Por ello ahora se busca la recuperación económica de estos. Se ha planteado el uso por parte de los negocios de la información obtenida para mejorar, con la ayuda de las empresas de los suministros, la experiencia de los compradores de estos negocios."
                 },
                 {
-                    "initX": 7,
-                    "initY": -4,
+                    "initX": 4,
+                    "initY": 2,
                     "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
                 }
             ],
             "imageWindows": [
                 {
                     "initX": -3,
-                    "initY": 0,
+                    "initY": -2,
                     "file": "ley1"
                 }
             ],
             "choiceWindow":              
             {
-                "initX": 0,
-                "initY": -2,
+                "initX": 4,
+                "initY": -3,
                 "choices": [
                     {
                         "text": "Mantener la ley de la identificación",
@@ -783,25 +783,25 @@
             "background": "FONDO1",
             "textWindows": [
                 {
-                    "initX": 4,
-                    "initY": -4,                
+                    "initX": 0,
+                    "initY": -2,                
                     "text": "Las grandes empresas, gracias a la venta de la información de los negocios, han logrado mejorar tanto la experiencia de los habitantes que los crímenes ya no son un problema. Ahora saben todo de tí y tus gustos. Los cuales han sido modificados por las empresas para poder vender en masa a toda costa. Ya no tienes gustos propios y todo está controlado."
                 }
             ],
             "imageWindows": [
                 {
+                    "initX": -2,
+                    "initY": 0,
+                    "file": "delCircular"
+                },
+                {
+                    "initX": 3,
+                    "initY": 1,
+                    "file": "delCircular"
+                },
+                {
                     "initX": -3,
-                    "initY": 0,
-                    "file": "delCircular"
-                },
-                {
-                    "initX": 3,
-                    "initY": 0,
-                    "file": "delCircular"
-                },
-                {
-                    "initX": 3,
-                    "initY": 0,
+                    "initY": 2,
                     "file": "delCircular"
                 },
                 {
@@ -812,8 +812,8 @@
             ],
             "choiceWindow":              
             {
-                "initX": 0,
-                "initY": -2,
+                "initX": 4,
+                "initY": 3,
                 "choices": [
                     {
                         "text": "Volver al menú",
