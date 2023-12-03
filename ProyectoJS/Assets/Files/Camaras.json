@@ -1,11 +1,11 @@
 {
-    "tree": [ 
+    "tree": [
         {
             "textIcons": [
                 {
                     "icon": 2,
                     "initX": 2,
-                    "initY": 0,               
+                    "initY": 0,
                     "textWindow": {
                         "category": 1,
                         "initX": -3,
@@ -18,7 +18,7 @@
                 {
                     "icon": 1,
                     "initX": 2,
-                    "initY": 2,               
+                    "initY": 2,
                     "imageWindow": {
                         "category": 1,
                         "initX": -3,
@@ -33,7 +33,7 @@
                 {
                     "category": 0,
                     "initX": -6,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
                 },
                 {
@@ -63,8 +63,7 @@
                     "file": "jefe"
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
                 "category": 2,
                 "initX": 4,
                 "initY": -3,
@@ -79,25 +78,26 @@
                     }
                 ]
             }
-            
         },
         {
             "id": "1",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "La seguridad ha caído a niveles críticos. Los delincuentes andan por sus anchas por la ciudad y los habitantes optan cada vez más en quedarse en sus casas hasta que esto pase."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Se ha vuelto a plantear la decisión de la instalación de las cámaras como forma de intentar acabar con esta situación."
                 }
-            ],       
-            "choiceWindow":              
-            {
+            ],
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -111,25 +111,26 @@
                     }
                 ]
             }
-            
         },
         {
             "id": "2",
             "background": "FONDO2",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Los ciudadanos aunque tengan miedo a salir tienen que abastecerse de los recursos necesarios. Por ello se plantea que los propios comercios sean los encargados de la seguridad en estos."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Se quiere aceptar una ley que permita la instalación de cámaras de seguridad como posible modo de mejora de la seguridad en los comercios privados para poder seguir adelante. ¿Dejar que los comercios instalen cámaras?"
                 }
-            ],       
-            "choiceWindow":              
-            {
+            ],
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -143,18 +144,19 @@
                     }
                 ]
             }
-            
         },
         {
             "id": "3",
             "background": "FONDO2",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Sin la instalación de las cámaras en los comercios estos se han convertido en un blanco fácil para cometer crímenes sin ser perseguidos."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
                     "text": "Los negocios vuelven a pedir la posibles instalación las cámaras como medida para poder frenar la horda de crímenes que afronta la ciudad."
@@ -162,13 +164,14 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
                     "initY": -3,
                     "file": "delCircular"
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -181,25 +184,27 @@
                         "dst": 4
                     }
                 ]
-            }                          
+            }
         },
         {
             "id": "4",
             "background": "FONDO2",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Sin la aprobación de la ley para las cámaras en lugares públicos los negocios están en una situación crítica y la incertidumbre sobre lo que pasará es abrumadora."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
                     "text": "Como otra posible propuesta, los dueños de los comercios han solicitado que para poder entrar en los comercios se tendrá que aportar la identificación oficial de cada habitante para poder ver el culpable en caso de que se produzca algún crimen."
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -213,31 +218,33 @@
                     }
                 ]
             }
-            
-        },       {
+        },   {
             "id": "5",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
-                    "text": "Gracias a la ley los crímenes han bajado considerablemente dentro de los negocios. Por ello ahora se busca la recuperación económica de estos. Se ha planteado el uso por parte de los negocios de la información obtenida para mejorar, con la ayuda de las empresas de los suministros, la experiencia de los compradores de estos negocios."
+                    "initY": 2,
+                    "text": "Gracias a la ley los crímenes han bajado considerablemente dentro de los negocios. Por ello ahora se busca la recuperación económica de estos. "
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                    "text": "Se ha planteado el uso por parte de los negocios de la información obtenida para mejorar, con la ayuda de las empresas de los suministros, la experiencia de los compradores de estos negocios."
                 }
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -3,
                     "initY": -2,
                     "file": "ley1"
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -251,47 +258,52 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "6",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -6,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Los negocios han logrado salir un poco adelante y han sido capaces de mejorar la seguridad en sus negocios, aunque las cámaras permitidas por la ley son muy insuficientes y ni de lejos han conseguido acabar con la delincuencia en estos. Además siguen con miedo debido a la gran tasa de criminalidad en las calles de Confidencia. Se ha mandado al gobierno el siguiente comunicado."
                 },
                 {
+                    "category": 0,
                     "initX": -2,
                     "initY": 2,
                     "text": "Nosotros el conjunto de comercios de la ciudad de Confidencia, agradecemos el uso de cámaras en nuestros negocios. Pero pensamos que son cámaras que no permiten defender nuestros negocios de manera eficaz. Queremos proponer la mejora de las cámaras ya instaladas para poder blindar contra cualquier crimen nuestros negocios."
                 },
                 {
+                    "category": 1,
                     "initX": 3,
                     "initY": 2,
                     "text": "Aquí te muestro alguna de las opiniones de los habitantes de Confidencia en base a esta propuesta:"
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 0,
                     "text": "'- Creo que con esta mejora no conseguirá nada ya que con las cámaras actuales ya se ha conseguido la máxima seguridad que se podía conseguir.  Con estas mejoras no se conseguirá nada.'"
                 },
                 {
+                    "category": 1,
                     "initX": 5,
                     "initY": 0,
                     "text": "'- Es la mejor idea del mundo, así los delincuentes ya no querrán ni entrar ya que estarán siendo todo el tiempo vigilados. No hay nada que se le escaparán a las cámaras.'"
-                }                
-
+                }
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -5,
                     "initY": -3,
                     "file": "ley1"
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
                 "initX": 0,
                 "initY": -2,
                 "choices": [
@@ -305,24 +317,26 @@
                     }
                 ]
             }
-        },       
+        },
         {
             "id": "7",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Sin las mejoras para las cámaras los negocios cada vez más van perdiendo la seguridad que obtuvieron al instalarlas."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
                     "text": "Se propone que las cámaras instaladas puedan grabar parte de la vía pública respectiva a su negocio para así poder obtener información como la dirección en la que huyen los posibles delincuentes o su posible método de escape."
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -336,24 +350,26 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "8",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Las mejoras implementadas en los negocios han conseguido blindarse contra los crímenes. Gracias a que tienen una visión más amplia se ha conseguido que los delincuentes opten por no atracar estos lugares."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
                     "text": "Se ha propuesto de nuevo implementar cámaras de seguridad en las calles de nuevo. Ya que debido a que los crímenes ya no son cometidos en los establecimientos los números de crímenes en la vía pública ha aumentado sin precedentes."
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -367,24 +383,26 @@
                     }
                 ]
             }
-            
-        },       {
+        },    {
             "id": "9",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,              
+                    "initY": 2,
                     "text": "Con la instalación de las cámaras de seguridad se ha logrado mantener a los delincuentes más a raya pero estos ahora han pasado a realizar actuar en los lugares más concurridos de la ciudad. Por lo que las cámaras son incapaces de poder observar estos delitos de manera clara."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
                     "text": "Se ha propuesto implementar una mejora en las cámaras para poder aplacar el crimen. Esto sería añadirles un control facial que permitiría obtener de manera más clara a los delincuentes en la multitud."
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
+
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -398,24 +416,26 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "10",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Las mejoras de las cámaras han ayudado a disminuir de una manera eficaz la tasa de delincuencia. Sin embargo, cada vez más los delincuentes se escabullen entre la población y no vuelven a ser localizados."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
                     "text": "Como medida para prevenir esto, se ha propuesto usar la geolocalización de los ciudadanos a través de sus dispositivos digitales si lo tuvieran y así poder localizar de manera eficiente su posición."
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -429,24 +449,26 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "11",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Con las medidas actuales la tasa de delincuencia aunque disminuyera en un principio cada día las estadísticas sobre estas se agravan."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
                     "text": "El gobierno ha propuesto aumentar el número de policías en las calles para hacer controles ya que la tecnología no ha sido suficiente. De esta manera se aumentan los controles y los ciudadanos se sentirían más seguros."
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -460,17 +482,19 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "12",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 4,
-                    "initY": -4,                
+                    "initY": -4,
                     "text": "Con el gran número de policías en la calle los delitos han disminuido de manera eficaz. Sin embargo, son cada vez más las personas que se quejan sobre la incomodidad ante la presencia de estos y quejas sobre cómo piden información “al azar” a las personas que a sus ojos son sospechosas. De esta manera las denuncias a la policía sobre discriminación han aumentado."
                 },
                 {
+                    "category": 1,
                     "initX": 7,
                     "initY": -4,
                     "text": "Cada vez hay más disparidad por parte de la población de seguir adelante con la medida o terminar con ella."
@@ -478,13 +502,16 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
+
                     "initX": -3,
                     "initY": 0,
                     "file": "delCircular"
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
+
                 "initX": 0,
                 "initY": -2,
                 "choices": [
@@ -498,39 +525,45 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "13",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 4,
-                    "initY": -4,                
+                    "initY": -4,
                     "text": "Los delitos siguen aumentando de manera abrumadora. Gracias a los informes podemos observar que la mayor parte de los delitos se producen de noche."
                 },
                 {
+                    "category": 0,
                     "initX": 7,
                     "initY": -4,
                     "text": "Se ha optado como medida poner un toque de queda a partir de las 12:00 de la noche como última manera para poder controlar los crímenes."
                 },
                 {
+                    "category": 1,
                     "initX": 7,
                     "initY": -4,
                     "text": "Aquí te muestro alguna de las opiniones de los habitantes de Confidencia en base a esta propuesta:"
                 },
                 {
+                    "category": 1,
                     "initX": 7,
                     "initY": -4,
                     "text": "“Si se implementa el toque de queda aunque puede que los delitos cambien los ciudadanos se verán cohibidos. Esta medida es muy extrema.”"
                 },
                 {
+                    "category": 1,
                     "initX": 7,
                     "initY": -4,
                     "text": "“Es la única solución. En el punto donde nos encontramos es la única forma de poder intentar acabar con la delincuencia. Es un todo o nada.”"
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
+
                 "initX": 0,
                 "initY": -2,
                 "choices": [
@@ -544,17 +577,20 @@
                     }
                 ]
             }
-            
-        },       {
+        },      {
             "id": "14",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
+
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Al mantener a la policía, la población que se opone a ella realiza revueltas y manifestaciones cada vez más violentas, provocando que esta no se centre en acabar con el crimen."
                 },
                 {
+                    "category": 1,
+
                     "initX": 4,
                     "initY": 2,
                     "text": "Si no se hace nada pronto se teme que todo acabe fuera de control, sin poder realizar nada al respecto. Se ha planteado el uso de la fuerza militar para apoyar a la policía en esta situación e intentar seguir adelante."
@@ -562,13 +598,16 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
+
                     "initX": -2,
                     "initY": -3,
                     "file": "delCircular"
                 }
             ],
-            "choiceWindow":              
-            { 
+            "choiceWindow": {
+                "category": 2,
+
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -582,17 +621,21 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "15",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
+
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "A partir de la geolocalización se ha conseguido controlar a los delincuentes de las zonas más conflictivas de la ciudad. Sin embargo, son cada vez más los que burlan esta seguridad con el uso de aplicaciones externas."
                 },
                 {
+                    "category": 1,
+
                     "initX": 4,
                     "initY": 2,
                     "text": "Se ha propuesto aumentar el número de policías en la calle para que controlen de manera arbitraria el correcto funcionamiento de la geolocalización."
@@ -600,13 +643,16 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
+
                     "initX": -3,
                     "initY": -2,
                     "file": "delCircular"
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
+
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -620,24 +666,29 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "16",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
+
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "La geolocalización ya no tiene efecto. Las aplicaciones maliciosas hacen que no se pueda saber si la información recolectada es correcta o errónea. Cada vez más la delincuencia vuelve a estar en los niveles iniciales."
                 },
                 {
+                    "category": 1,
+
                     "initX": 4,
                     "initY": 2,
                     "text": "Para intentar remediar esto se ha propuesto implantar un toque de queda a partir de las 12:00 de la noche, ya que es en esta hora en la que se producen más delitos."
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
+
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -651,24 +702,29 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "17",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
+
                     "initX": -2,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "Gracias a la geolocalización y el control de la policía la tasa de delincuencia está en sus mínimos. Aunque parte de la población se encuentra descontenta con este control, Confidencia nunca ha estado tan cerca de conseguir erradicar toda la delincuencia de una vez por todas."
                 },
                 {
+                    "category": 1,
+
                     "initX": 4,
                     "initY": 2,
-                    "text": "Como última medida se ha planteado implantar un toque de queda a los ciudadanos a partir de las 12:00 de la noche ya que la mayoría de los crímenes se dan de noche. Aunque existen discrepancias parece ser una solución eficaz para acabar con estos. "
+                    "text": "Como última medida se ha planteado implantar un toque de queda a los ciudadanos a partir de las 12:00 de la noche ya que la mayoría de los crímenes se dan de noche. Aunque existen discrepancias parece ser una solución eficaz para acabar con estos."
                 }
             ],
-            "choiceWindow":              
-            {
+            "choiceWindow": {
+                "category": 2,
+
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -682,29 +738,33 @@
                     }
                 ]
             }
-            
-        },       {
+        },
+        {
             "id": "18",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
+
                     "initX": -4,
-                    "initY": 2,                
+                    "initY": 2,
                     "text": "El toque de queda ha hecho que la tasa de criminalidad haya bajado a mínimos. Sin embargo, esta medida ha  causado que la población se haya dividido en dos bandos, los que son partidarios de mantenerlo para acabar de una vez por todas y los que quieren abolirlo por la pérdida de libertades."
                 },
-                {
+                {                    
+                    "category": 1,
                     "initX": 0,
                     "initY": 2,
                     "text": "Los conflictos entre las opiniones han causado revueltas y propuestas, generando un estado de caos total."
                 },
                 {
+                    "category": 1,
                     "initX": 4,
                     "initY": 2,
                     "text": "El gobierno plantea el uso de fuerza militar para poder paliar estos conflictos."
                 }
             ],
-            "choiceWindow":              
-            { 
+            "choiceWindow": {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
@@ -718,19 +778,26 @@
                     }
                 ]
             }
-            
         },       {
             "id": "19",
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 4,
                     "initY": -4,                
-                    "text": "Gracias a la mejora de la ley los crímenes han bajado considerablemente dentro de los negocios. Por ello ahora se busca la recuperación económica de estos. Se ha planteado el uso por parte de los negocios de la información obtenida para mejorar, con la ayuda de las empresas de los suministros, la experiencia de los compradores de estos negocios."
+                    "text": "Gracias a la mejora de la ley los crímenes han bajado considerablemente dentro de los negocios. "
+                },
+                {
+                    "category": 1,
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Por ello ahora se busca la recuperación económica de estos. Se ha planteado el uso por parte de los negocios de la información obtenida para mejorar, con la ayuda de las empresas de los suministros, la experiencia de los compradores de estos negocios."
                 }
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -3,
                     "initY": 0,
                     "file": "ley1Cambio"
@@ -738,6 +805,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 0,
                 "initY": -2,
                 "choices": [
@@ -757,6 +825,7 @@
             "background": "FONDO4",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 0,
                     "initY": -2,                
                     "text": "Confidencia no ha aguantado las crecientes oleadas de crímenes por la que pasaba. Ya no se puede hacer nada al respecto. Las decisiones han permitido que la falta de prevención de la delincuencia haga que esta solo empeore. Los ciudadanos han optado por huir los más lejos posible"
@@ -764,11 +833,13 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -6,
                     "initY": -2,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": 6,
                     "initY": -2,
                     "file": "delCircular"
@@ -776,6 +847,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 2,
                 "initY": -3,
                 "choices": [
@@ -791,6 +863,7 @@
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 0,
                     "initY": -2,                
                     "text": "Las grandes empresas, gracias a la venta de la información de los negocios, han logrado mejorar tanto la experiencia de los habitantes que los crímenes ya no son un problema. Ahora saben todo de tí y tus gustos. Los cuales han sido modificados por las empresas para poder vender en masa a toda costa. Ya no tienes gustos propios y todo está controlado."
@@ -798,21 +871,25 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -2,
                     "initY": 0,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": 3,
                     "initY": 1,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": -3,
                     "initY": 2,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": -3,
                     "initY": 0,
                     "file": "delCircular"
@@ -820,6 +897,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 4,
                 "initY": 3,
                 "choices": [
@@ -835,6 +913,7 @@
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 4,
                     "initY": -4,                
                     "text": "Confidencia sigue igual. Nada ha cambiado. Los crímenes de la ciudad no han cesado y aunque los negocios pudieron mejorar en un principio, al no cesar la delincuencia la forma de prevención no fue suficiente. Ya no se puede hacer nada al respecto. Solo queda esperar"
@@ -842,16 +921,19 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -3,
                     "initY": 0,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": 3,
                     "initY": 0,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": 3,
                     "initY": 0,
                     "file": "delCircular"
@@ -859,6 +941,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 0,
                 "initY": -2,
                 "choices": [
@@ -874,6 +957,7 @@
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 4,
                     "initY": -4,                
                     "text": "Confidencia ha sido tomada por los militares aprovechando la medida tomada para poder mantener el control y seguridad. No hay crímenes. Los ciudadanos ya no pueden realizar nada sin que esto sea controlado. Cualquier revuelta realizada en contra del sistema es aplacada inmediatamente. Confidencia es el lugar más seguro, pero a qué coste."
@@ -881,11 +965,13 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -3,
                     "initY": 0,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": 3,
                     "initY": 0,
                     "file": "delCircular"
@@ -893,6 +979,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 0,
                 "initY": -2,
                 "choices": [
@@ -908,6 +995,7 @@
             "background": "FONDO4",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 4,
                     "initY": -4,                
                     "text": "Confidencia es un caos total. Al no existir ninguna forma de control ni seguridad para los ciudadanos la ciudad ha caído en el caos. Los delincuentes ya no solo actúan en la vía pública si no que ya nadie está seguro ni en sus casas. La única opción es salir de Confidencia. "
@@ -915,16 +1003,19 @@
             ],
             "imageWindows": [
                 {
+                    "category": 0,
                     "initX": -3,
                     "initY": 0,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": 3,
                     "initY": 0,
                     "file": "delCircular"
                 },
                 {
+                    "category": 0,
                     "initX": 3,
                     "initY": 0,
                     "file": "delCircular"
@@ -932,6 +1023,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 0,
                 "initY": -2,
                 "choices": [
@@ -947,6 +1039,7 @@
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 4,
                     "initY": -4,                
                     "text": "Confidencia es una ciudad segura. Aunque el crimen no se ha erradicado por completo  este se mantiene en un nivel estable. La población se siente controlada y hay gran descontento general. Se ha conseguido bajar la delincuencia pero a coste de la felicidad general."
@@ -954,6 +1047,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 0,
                 "initY": -2,
                 "choices": [
@@ -970,6 +1064,7 @@
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": 4,
                     "initY": -4,                
                     "text": "Confidencia es una ciudad segura. Aunque el crimen no se ha erradicado por completo  este se mantiene en un nivel estable. La población se siente controlada y hay gran descontento general. Se ha conseguido bajar la delincuencia pero a coste de la felicidad general."
@@ -977,6 +1072,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 0,
                 "initY": -2,
                 "choices": [

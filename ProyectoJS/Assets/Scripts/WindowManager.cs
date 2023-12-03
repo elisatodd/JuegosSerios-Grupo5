@@ -17,6 +17,10 @@ public class WindowManager : MonoBehaviour
     [SerializeField] private static float maximizeDuration = 0.25f;
     [SerializeField] private static float targetYPosition = -5;
 
+    public void Clear()
+    {
+        myWindows.Clear();
+    }
     public void AddWindow(GameObject window)
     {
         myWindows.Add(window);

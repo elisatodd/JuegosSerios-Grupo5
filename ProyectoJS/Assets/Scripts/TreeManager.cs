@@ -39,6 +39,11 @@ public class TreeManager : MonoBehaviour
 
     private IEnumerator loadNode(int n)
     {
+        foreach(WindowManager w in windowManagers)
+        {
+            w.Clear();
+        }
+
         foreach (GameObject gameObject in nodeData)
         {
             yield return StartCoroutine(WindowManager.MinimizeObject(gameObject));
