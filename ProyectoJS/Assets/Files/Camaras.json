@@ -162,14 +162,6 @@
                     "text": "Los negocios vuelven a pedir la posibles instalación las cámaras como medida para poder frenar la horda de crímenes que afronta la ciudad."
                 }
             ],
-            "imageWindows": [
-                {
-                    "category": 0,
-                    "initX": -2,
-                    "initY": -3,
-                    "file": "delCircular"
-                }
-            ],
             "choiceWindow": {
                 "category": 2,
                 "initX": 4,
@@ -400,6 +392,15 @@
                     "text": "Se ha propuesto implementar una mejora en las cámaras para poder aplacar el crimen. Esto sería añadirles un control facial que permitiría obtener de manera más clara a los delincuentes en la multitud."
                 }
             ],
+            "imageWindows": [
+                {
+                    "category": 0,
+                    "initX": -5,
+                    "initY": -3,
+                    "file": "cam"
+                }
+            ],
+
             "choiceWindow": {
                 "category": 2,
 
@@ -506,7 +507,7 @@
 
                     "initX": -3,
                     "initY": 0,
-                    "file": "delCircular"
+                    "file": "info"
                 }
             ],
             "choiceWindow": {
@@ -602,7 +603,7 @@
 
                     "initX": -2,
                     "initY": -3,
-                    "file": "delCircular"
+                    "file": "info"
                 }
             ],
             "choiceWindow": {
@@ -647,7 +648,7 @@
 
                     "initX": -3,
                     "initY": -2,
-                    "file": "delCircular"
+                    "file": "hack"
                 }
             ],
             "choiceWindow": {
@@ -860,7 +861,7 @@
             
         },       {
             "id": "21",
-            "background": "FONDO1",
+            "background": "FONDO3",
             "textWindows": [
                 {
                     "category": 0,
@@ -874,25 +875,32 @@
                     "category": 0,
                     "initX": -2,
                     "initY": 0,
-                    "file": "delCircular"
+                    "file": "ad50"
                 },
                 {
                     "category": 0,
                     "initX": 3,
                     "initY": 1,
-                    "file": "delCircular"
+                    "file": "ad3"
                 },
                 {
                     "category": 0,
                     "initX": -3,
                     "initY": 2,
-                    "file": "delCircular"
+                    "file": "ad40"
                 },
                 {
-                    "category": 0,
+                    "category": 1,
                     "initX": -3,
                     "initY": 0,
-                    "file": "delCircular"
+                    "file": "ad40"
+                }
+                ,
+                {
+                    "category": 1,
+                    "initX": -3,
+                    "initY": 0,
+                    "file": "ad50"
                 }
             ],
             "choiceWindow":              
@@ -917,26 +925,6 @@
                     "initX": 4,
                     "initY": -4,                
                     "text": "Confidencia sigue igual. Nada ha cambiado. Los crímenes de la ciudad no han cesado y aunque los negocios pudieron mejorar en un principio, al no cesar la delincuencia la forma de prevención no fue suficiente. Ya no se puede hacer nada al respecto. Solo queda esperar"
-                }
-            ],
-            "imageWindows": [
-                {
-                    "category": 0,
-                    "initX": -3,
-                    "initY": 0,
-                    "file": "delCircular"
-                },
-                {
-                    "category": 0,
-                    "initX": 3,
-                    "initY": 0,
-                    "file": "delCircular"
-                },
-                {
-                    "category": 0,
-                    "initX": 3,
-                    "initY": 0,
-                    "file": "delCircular"
                 }
             ],
             "choiceWindow":              
@@ -1006,19 +994,13 @@
                     "category": 0,
                     "initX": -3,
                     "initY": 0,
-                    "file": "delCircular"
+                    "file": "dan1"
                 },
                 {
                     "category": 0,
                     "initX": 3,
                     "initY": 0,
-                    "file": "delCircular"
-                },
-                {
-                    "category": 0,
-                    "initX": 3,
-                    "initY": 0,
-                    "file": "delCircular"
+                    "file": "dan2"
                 }
             ],
             "choiceWindow":              
