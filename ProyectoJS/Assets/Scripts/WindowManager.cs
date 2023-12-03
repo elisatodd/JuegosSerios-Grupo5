@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class WindowManager : MonoBehaviour
 {
-
     [SerializeField]
     private List<GameObject> myWindows;
 
@@ -32,6 +31,11 @@ public class WindowManager : MonoBehaviour
         {
             win.SetActive(false);
         }
+    }
+
+    public bool hasWindow(GameObject o)
+    {
+        return myWindows.Contains(o);
     }
 
 

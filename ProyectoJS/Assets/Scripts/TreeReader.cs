@@ -14,18 +14,21 @@ public class Window
 [Serializable]
 public class TextWindow : Window
 {
+    public int category;
     public string text;
 }
 
 [Serializable]
 public class ImageWindow : Window
 {
+    public int category;
     public string file;
 }
 
 [Serializable]
 public class ChoiceWindow : Window
 {
+    public int category;
     public List<Choice> choices; // Opcional, solo si es tipo 2
 }
 

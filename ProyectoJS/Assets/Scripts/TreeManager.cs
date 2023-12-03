@@ -10,6 +10,9 @@ public class TreeManager : MonoBehaviour
     List<NodeData> tree;
     int node = 0;
 
+    [SerializeField]
+    private List<WindowManager> windowManagers = new List<WindowManager>();
+
     [Header("Valores base")]
     [SerializeField]
     Image background;
@@ -78,8 +81,11 @@ public class TreeManager : MonoBehaviour
             
         foreach (GameObject gameObject in nodeData)
         {
-            gameObject.SetActive(true);
-            yield return StartCoroutine(MaximizeObject(gameObject));
+            if (windowManagers[0].hasWindow(gameObject))
+            {
+                gameObject.SetActive(true);
+                yield return StartCoroutine(MaximizeObject(gameObject));
+            }
         }
 
         nodeData.AddRange(hiddenWindows);
@@ -129,9 +135,14 @@ public class TreeManager : MonoBehaviour
     {
         GameObject instantiatedPrefab = Instantiate(textWindowPrefab);
         instantiatedPrefab.SetActive(false);
+
         TextMeshProUGUI textMeshPro = instantiatedPrefab.GetComponentInChildren<TextMeshProUGUI>();
         textMeshPro.text = window.text;
+
         instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
+
+        windowManagers[window.category].AddWindow(instantiatedPrefab);
+
         return instantiatedPrefab;
     }
 
@@ -139,9 +150,14 @@ public class TreeManager : MonoBehaviour
     {
         GameObject instantiatedPrefab = Instantiate(imageWindowPrefab);
         instantiatedPrefab.SetActive(false);
+
         Image image = instantiatedPrefab.GetComponentInChildren<Image>();
         image.sprite = Resources.Load<Sprite>("Images/" + window.file);
+
         instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
+
+        windowManagers[window.category].AddWindow(instantiatedPrefab);
+
         return instantiatedPrefab;
     }
 
@@ -172,6 +188,8 @@ public class TreeManager : MonoBehaviour
 
         instantiatedPrefab.transform.position = new Vector2(window.initX, window.initY);
 
+        windowManagers[window.category].AddWindow(instantiatedPrefab);
+
         return instantiatedPrefab;
     }
 
@@ -184,7 +202,7 @@ public class TreeManager : MonoBehaviour
         instantiatedPrefab.GetComponentInChildren<Image>().sprite = icons[icon.icon];
 
         Button button = instantiatedPrefab.GetComponentInChildren<Button>();
-        button.onClick.AddListener(() => onIconClick(window));      
+        button.onClick.AddListener(() => onIconClick(window));
 
         instantiatedPrefab.transform.position = new Vector2(icon.initX, icon.initY);
 

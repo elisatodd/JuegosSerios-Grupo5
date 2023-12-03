@@ -8,6 +8,8 @@ using UnityEngine;
 public class ClickDrag : MonoBehaviour
 {
     public static int currentLayerOrder = 2;
+    
+    private static int minYPos = -4;
 
     private BoxCollider2D boxCollider;
     private bool dragging = false;
@@ -55,7 +57,16 @@ public class ClickDrag : MonoBehaviour
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            transform.position = new Vector2(mousePos.x + offset.x, mousePos.y + offset.y);
+           // transform.position = new Vector2(mousePos.x + offset.x, mousePos.y + offset.y);
+
+            // Limitar el movimiento hacia abajo
+            float newY = mousePos.y + offset.y;
+            if (newY < minYPos)
+            {
+                newY = minYPos;
+            }
+
+            transform.position = new Vector2(mousePos.x + offset.x, newY);
         }
     }
 }

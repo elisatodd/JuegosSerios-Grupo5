@@ -7,6 +7,7 @@
                     "initX": 2,
                     "initY": 0,               
                     "textWindow": {
+                        "category": 1,
                         "initX": -3,
                         "initY": 0,
                         "text": "Fresante"
@@ -19,6 +20,7 @@
                     "initX": 2,
                     "initY": 2,               
                     "imageWindow": {
+                        "category": 1,
                         "initX": -3,
                         "initY": 0,
                         "file": "Fresante"
@@ -29,11 +31,13 @@
             "background": "FONDO1",
             "textWindows": [
                 {
+                    "category": 0,
                     "initX": -6,
                     "initY": 2,                
                     "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
                 },
                 {
+                    "category": 1,
                     "initX": 0,
                     "initY": 2,
                     "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
@@ -41,16 +45,19 @@
             ],
             "imageWindows": [
                 {
+                    "category": 1,
                     "initX": -6,
                     "initY": -3,
                     "file": "delCircular"
                 },
                 {
+                    "category": 1,
                     "initX": -2,
                     "initY": -3,
                     "file": "delGraf"
                 },
                 {
+                    "category": 0,
                     "initX": 4,
                     "initY": 2,
                     "file": "jefe"
@@ -58,6 +65,7 @@
             ],
             "choiceWindow":              
             {
+                "category": 2,
                 "initX": 4,
                 "initY": -3,
                 "choices": [
