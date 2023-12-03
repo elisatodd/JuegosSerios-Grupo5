@@ -1312,7 +1312,7 @@ MonoBehaviour:
   - {fileID: 823152878}
   - {fileID: 935365159}
   - {fileID: 503612041}
-  background: {fileID: 0}
+  background: {fileID: 312579100}
   textWindowPrefab: {fileID: 1251031574356137935, guid: c8aa17a08089c90468f302ca3a0693b0, type: 3}
   imageWindowPrefab: {fileID: 6602269737030619827, guid: d2e98e1bf5d92014e8803298ae80b843, type: 3}
   choiceWindowPrefab: {fileID: 127255778661630376, guid: 7363c873b6f269b46aafb0f8c26381b4, type: 3}
@@ -1323,9 +1323,6 @@ MonoBehaviour:
   - {fileID: -2010937467, guid: 3fe7b3d09f79ff34c92ac0b3a5fd5c8a, type: 3}
   - {fileID: -1649412175, guid: 3fe7b3d09f79ff34c92ac0b3a5fd5c8a, type: 3}
   - {fileID: -1941081568, guid: 3fe7b3d09f79ff34c92ac0b3a5fd5c8a, type: 3}
-  minimizeDuration: 0.25
-  maximizeDuration: 0.25
-  targetYPosition: -5
 --- !u!1 &1492741263
 GameObject:
   m_ObjectHideFlags: 0

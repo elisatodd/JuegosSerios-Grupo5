@@ -29,10 +29,6 @@ public class TreeManager : MonoBehaviour
 
     List<GameObject> nodeData;
 
-    [Header("Animaciones de las ventanas")]
-    [SerializeField] private float minimizeDuration = 0.25f;
-    [SerializeField] private float maximizeDuration = 0.25f;
-    [SerializeField] private float targetYPosition = -5; 
 
     void Start()
     {
@@ -45,7 +41,7 @@ public class TreeManager : MonoBehaviour
     {
         foreach (GameObject gameObject in nodeData)
         {
-            yield return StartCoroutine(MinimizeObject(gameObject));
+            yield return StartCoroutine(WindowManager.MinimizeObject(gameObject));
             Destroy(gameObject);
         }
         nodeData.Clear();
@@ -84,51 +80,11 @@ public class TreeManager : MonoBehaviour
             if (windowManagers[0].hasWindow(gameObject))
             {
                 gameObject.SetActive(true);
-                yield return StartCoroutine(MaximizeObject(gameObject));
+                yield return StartCoroutine(WindowManager.MaximizeObject(gameObject));
             }
         }
 
         nodeData.AddRange(hiddenWindows);
-    }
-
-    IEnumerator MaximizeObject(GameObject obj)
-    {
-        Vector3 originalScale = obj.transform.localScale;
-        Vector3 targetScale = originalScale;
-        float elapsedTime = 0f;
-
-        while (elapsedTime < maximizeDuration)
-        {
-            obj.transform.localScale = Vector3.Lerp(Vector3.zero, targetScale, elapsedTime / maximizeDuration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-        // Asegurarse de que el objeto tenga la escala final exacta
-        obj.transform.localScale = targetScale;
-    }
-
-    IEnumerator MinimizeObject(GameObject obj)
-    {
-        Vector3 originalScale = obj.transform.localScale;
-        Vector3 targetScale = Vector3.zero;
-
-        Vector3 originalPosition = obj.transform.position;
-        Vector3 targetPosition = new Vector3(originalPosition.x, targetYPosition, originalPosition.z);
-
-        float elapsedTime = 0f;
-
-        while (elapsedTime < minimizeDuration)
-        {
-            obj.transform.localScale = Vector3.Lerp(originalScale, targetScale, elapsedTime / minimizeDuration);
-            obj.transform.position = Vector3.Lerp(originalPosition, targetPosition, elapsedTime / minimizeDuration);
-
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        // Asegurarse de que el objeto tenga la escala final y posición exactas
-        obj.transform.localScale = targetScale;
-        obj.transform.position = targetPosition;
     }
 
     private GameObject loadTextWindow(TextWindow window)
@@ -214,11 +170,11 @@ public class TreeManager : MonoBehaviour
         if (!window.activeSelf)
         {
             window.SetActive(true);
-            StartCoroutine(MaximizeObject(window));
+            StartCoroutine(WindowManager.MaximizeObject(window));
         }
         else
         {        
-            StartCoroutine(MinimizeObject(window));
+            StartCoroutine(WindowManager.MinimizeObject(window));
             //window.SetActive(false);
         }
     }

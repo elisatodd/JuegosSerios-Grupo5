@@ -21,6 +21,9 @@ public class ClickDrag : MonoBehaviour
 
     [SerializeField] private Canvas myCanvas;
 
+    private Vector2 originalSize;
+    private Vector2 screenPosition;
+
     private void Awake()
     {
         boxCollider = this.GetComponent<BoxCollider2D>();
@@ -31,6 +34,8 @@ public class ClickDrag : MonoBehaviour
 
         spriteRenderer.sortingOrder = initialOrderInLayer;
         myCanvas.sortingOrder = initialOrderInLayer;
+
+        originalSize = this.transform.localScale;
     }
 
     private void OnMouseDown()
@@ -67,6 +72,26 @@ public class ClickDrag : MonoBehaviour
             }
 
             transform.position = new Vector2(mousePos.x + offset.x, newY);
+            screenPosition = transform.position;
         }
+    }
+
+    public void SetSize(Vector2 s)
+    {
+        originalSize = s;
+    }
+
+    public Vector2 GetSize()
+    {
+        return originalSize;
+    }
+
+    public Vector2 GetScreenPosition()
+    {
+        return screenPosition;
+    }
+    public void SetScreenPosition(Vector2 p)
+    {
+        screenPosition = p;
     }
 }
