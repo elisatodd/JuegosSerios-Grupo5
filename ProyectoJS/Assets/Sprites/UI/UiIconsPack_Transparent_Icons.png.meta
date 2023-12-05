@@ -302,7 +302,7 @@ TextureImporter:
         height: 292.75
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 69, y: 83, z: 80, w: 86}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1794,9 +1794,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      UiIconsPack_Transparent_Icons_59: 464828619
       UiIconsPack_Transparent_Icons_65: -573237948
-      UiIconsPack_Transparent_Icons_78: -441061566
       UiIconsPack_Transparent_Icons_11: -1581303090
       UiIconsPack_Transparent_Icons_64: 337615533
       UiIconsPack_Transparent_Icons_48: 1633423379
@@ -1856,17 +1854,19 @@ TextureImporter:
       UiIconsPack_Transparent_Icons_18: 216553088
       UiIconsPack_Transparent_Icons_55: -1779985479
       UiIconsPack_Transparent_Icons_9: 619618484
+      UiIconsPack_Transparent_Icons_59: 464828619
       UiIconsPack_Transparent_Icons_7: -543230674
-      UiIconsPack_Transparent_Icons_15: -1635884144
       UiIconsPack_Transparent_Icons_5: -1243771778
-      UiIconsPack_Transparent_Icons_10: 1581069673
+      UiIconsPack_Transparent_Icons_78: -441061566
       UiIconsPack_Transparent_Icons_23: 1510539529
+      UiIconsPack_Transparent_Icons_10: 1581069673
+      UiIconsPack_Transparent_Icons_15: -1635884144
       UiIconsPack_Transparent_Icons_69: -57009236
-      UiIconsPack_Transparent_Icons_28: -580489005
       UiIconsPack_Transparent_Icons_73: 953284955
-      UiIconsPack_Transparent_Icons_40: -243277274
+      UiIconsPack_Transparent_Icons_28: -580489005
       UiIconsPack_Transparent_Icons_53: 1204634890
       UiIconsPack_Transparent_Icons_56: -199648527
+      UiIconsPack_Transparent_Icons_40: -243277274
       UiIconsPack_Transparent_Icons_71: 1137982047
       UiIconsPack_Transparent_Icons_36: 1603697778
       UiIconsPack_Transparent_Icons_34: -875265209
