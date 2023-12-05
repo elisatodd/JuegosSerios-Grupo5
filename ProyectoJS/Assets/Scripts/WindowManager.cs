@@ -25,7 +25,7 @@ public class WindowManager : MonoBehaviour
     {
         myWindows.Add(window);
 
-        ClickDrag cd = gameObject.GetComponent<ClickDrag>();
+        ClickDrag cd = window.gameObject.GetComponent<ClickDrag>();
         if (cd != null)
         {
             cd.SetSize(window.transform.localScale);
