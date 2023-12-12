@@ -233,31 +233,31 @@
                     "category": 0,
                     "initX": -6,
                     "initY": 2,
-                    "text": "Los negocios han logrado salir un poco adelante y han sido capaces de mejorar la seguridad en sus negocios, aunque las cámaras permitidas por la ley son muy insuficientes y ni de lejos han conseguido acabar con la delincuencia en estos. Además siguen con miedo debido a la gran tasa de criminalidad en las calles de Confidencia. Se ha mandado al gobierno el siguiente comunicado."
+                    "text": "Los negocios han logrado salir adelante y mejorar la seguridad para sí mismos y sus clientes, aunque las cámaras que permite la ley son insuficientes y necesitan de algunas mejoras para poder acabar con la delincuencia por completo. Además, hay ciudadanos que siguen con miedo a ser víctimas de un crimen en las calles de Confidencia. Se ha mandado un comunicado de parte de los empresarios."
                 },
                 {
                     "category": 0,
                     "initX": -2,
                     "initY": 2,
-                    "text": "Nosotros el conjunto de comercios de la ciudad de Confidencia, agradecemos el uso de cámaras en nuestros negocios. Pero pensamos que son cámaras que no permiten defender nuestros negocios de manera eficaz. Queremos proponer la mejora de las cámaras ya instaladas para poder blindar contra cualquier crimen nuestros negocios."
+                    "text": "La asociación de comerciantes de la ciudad de Confidencia agradecemos la aprobación de la instalación de cámaras en nuestros negocios. Sin embargo, pensamos que estas cámaras no son lo suficientemente avanzadas para defender nuestros negocios, y más importante, a nuestros clientes, de manera eficaz. Proponemos la mejora de las cámaras ya instaladas para poder defendernos ante los criminales que hay en Confidencia."
                 },
                 {
                     "category": 1,
                     "initX": 3,
                     "initY": 2,
-                    "text": "Aquí te muestro alguna de las opiniones de los habitantes de Confidencia en base a esta propuesta:"
+                    "text": "Estas son algunas opiniones de los habitantes de Confidencia en base a esta propuesta:"
                 },
                 {
                     "category": 1,
                     "initX": 4,
                     "initY": 0,
-                    "text": "'- Creo que con esta mejora no conseguirá nada ya que con las cámaras actuales ya se ha conseguido la máxima seguridad que se podía conseguir.  Con estas mejoras no se conseguirá nada.'"
+                    "text": "'Creo que esta mejora no va a ahuyentar a los criminales más de lo que lo hacen las cámaras actuales. No creo que los delincuentes se vean intimidados por más seguridad.'"
                 },
                 {
                     "category": 1,
                     "initX": 5,
                     "initY": 0,
-                    "text": "'- Es la mejor idea del mundo, así los delincuentes ya no querrán ni entrar ya que estarán siendo todo el tiempo vigilados. No hay nada que se le escaparán a las cámaras.'"
+                    "text": "'¡Es la mejor idea del mundo! Las nuevas cámaras pueden identificar fácilmente a los criminales, ahuyentándolos y dejándonos comprar tranquilos de una vez por todas.'"
                 }
             ],
             "imageWindows": [
@@ -274,11 +274,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Aceptar mejorar la actual ley",
+                        "text": "Aceptar la mejora de cámaras",
                         "dst": 7
                     },
                     {
-                        "text": "Denegar mejorar la actual ley",
+                        "text": "Denegar la mejora de cámaras",
                         "dst": 4
                     }
                 ]
@@ -805,13 +805,13 @@
                     "category": 0,
                     "initX": -6,
                     "initY": -2,
-                    "file": "delCircular"
+                    "file": "NEWSPAPER"
                 },
                 {
                     "category": 0,
                     "initX": 6,
                     "initY": -2,
-                    "file": "delCircular"
+                    "file": "dan2"
                 }
             ],
             "choiceWindow":              
