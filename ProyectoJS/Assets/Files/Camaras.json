@@ -1,59 +1,33 @@
 {
     "tree": [
         {
-            "textIcons": [
-                {
-                    "icon": 2,
-                    "initX": 2,
-                    "initY": 0,
-                    "textWindow": {
-                        "category": 1,
-                        "initX": -3,
-                        "initY": 0,
-                        "text": "Fresante"
-                    }
-                }
-            ],
-            "imageIcons": [
-                {
-                    "icon": 1,
-                    "initX": 2,
-                    "initY": 2,
-                    "imageWindow": {
-                        "category": 1,
-                        "initX": -3,
-                        "initY": 0,
-                        "file": "Fresante"
-                    }
-                }
-            ],
             "id": "0",
             "background": "FONDO1",
             "textWindows": [
                 {
                     "category": 0,
-                    "initX": -6,
+                    "initX": -4,
                     "initY": 2,
-                    "text": "Para poder comprobar y testear tú funcionamiento he creado una ciudad ficticia para tí, llamada Confidencia. En esta serás la encargada de ayudar a gestionar la seguridad de esta tomando decisiones."
+                    "text": "Para comprobar tu funcionamiento he creado una ciudad ficticia, llamada Confidencia. En Confidencia te encargarás de ayudar a gestionar la seguridad de estado tomando decisiones."
                 },
                 {
                     "category": 1,
                     "initX": 0,
                     "initY": 2,
-                    "text": "En Confidencia hay un claro problema de seguridad como puedes ver en la imagen. Por ello el secretario de seguridad del estado ha planteado intentar mejorar esta seguridad implementando cámaras de seguridad en los lugares más conflictivos con el objetivo de acabar con la delincuencia de una vez por todas."
+                    "text": "En Confidencia hay un claro problema de seguridad, como puedes ver en el gráfico. Para solucionarlo, el secretario de seguridad del estado ha planteado la propuesta de instalar cámaras de seguridad en los lugares públicos más conflictivos. Su objetivo es acabar con la delincuencia de una vez por todas. Quiere consultar tu opinión antes de formalizar la propuesta."
                 }
             ],
             "imageWindows": [
                 {
                     "category": 1,
                     "initX": -6,
-                    "initY": -3,
+                    "initY": -2,
                     "file": "delCircular"
                 },
                 {
                     "category": 1,
-                    "initX": -2,
-                    "initY": -3,
+                    "initX": 2,
+                    "initY": -2,
                     "file": "delGraf"
                 },
                 {
@@ -65,15 +39,15 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
-                        "text": "Aceptar la instalación de las cámaras de la ciudad",
+                        "text": "Aceptar la instalación de cámaras en la ciudad",
                         "dst": 9
                     },
                     {
-                        "text": "Denegar la instalación de las cámaras en la ciudad",
+                        "text": "Denegar la instalación de cámaras en la ciudad",
                         "dst": 1
                     }
                 ]
@@ -87,13 +61,13 @@
                     "category": 0,
                     "initX": -2,
                     "initY": 2,
-                    "text": "La seguridad ha caído a niveles críticos. Los delincuentes andan por sus anchas por la ciudad y los habitantes optan cada vez más en quedarse en sus casas hasta que esto pase."
+                    "text": "La seguridad en Confidencia se encuentra en niveles críticos. Los delincuentes pasean libremente por la ciudad y los habitantes optan cada vez más por quedarse en sus casas."
                 },
                 {
                     "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "Se ha vuelto a plantear la decisión de la instalación de las cámaras como forma de intentar acabar con esta situación."
+                    "text": "El ministro se ha vuelto a plantear la instalación de las cámaras, con la esperanza de acabar con esta situación de una vez por todas."
                 }
             ],
             "choiceWindow": {
@@ -102,11 +76,11 @@
                 "initY": -3,
                 "choices": [
                     {
-                        "text": "Aceptar la instalación de las cámaras",
+                        "text": "Aceptar la instalación de cámaras",
                         "dst": 6
                     },
                     {
-                        "text": "Mantenerse sin cámaras",
+                        "text": "Denegar la instalación de cámaras",
                         "dst": 2
                     }
                 ]
