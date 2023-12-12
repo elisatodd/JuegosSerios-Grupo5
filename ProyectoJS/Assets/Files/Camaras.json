@@ -60,7 +60,7 @@
                 {
                     "category": 0,
                     "initX": -2,
-                    "initY": 2,
+                    "initY": 1,
                     "text": "La seguridad en Confidencia se encuentra en niveles críticos. Los delincuentes pasean libremente por la ciudad y los habitantes optan cada vez más por quedarse en sus casas."
                 },
                 {
@@ -72,8 +72,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar la instalación de cámaras",
@@ -105,8 +105,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar la ley de la instalación de las cámaras",
@@ -138,8 +138,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar la ley de la identificación",
@@ -171,8 +171,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar la ley de la identificación",
@@ -211,8 +211,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Mantener la ley de la identificación",
@@ -271,7 +271,7 @@
             "choiceWindow": {
                 "category": 2,
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar mejorar la actual ley",
@@ -303,8 +303,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Mejorar la ley de cámaras en lugares privados",
@@ -336,8 +336,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Establecer cámaras de seguridad en la calle",
@@ -377,9 +377,8 @@
 
             "choiceWindow": {
                 "category": 2,
-
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar la mejora de cámaras",
@@ -411,8 +410,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar la geolocalización",
@@ -444,8 +443,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar el aumento de la policía en las calles",
@@ -486,9 +485,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Mantener el aumento de la policía en las calles",
@@ -538,9 +536,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Establecer toque de queda",
@@ -582,9 +579,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar el uso de fuerza militar",
@@ -627,9 +623,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar aumentar el número de policías en la calle",
@@ -663,9 +658,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Aceptar el toque de queda",
@@ -699,9 +693,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Establecer toque de queda",
@@ -740,8 +733,8 @@
             ],
             "choiceWindow": {
                 "category": 2,
-                "initX": 4,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Activar la fuerza militar",
@@ -782,7 +775,7 @@
             {
                 "category": 2,
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Mantener las mejoras realizadas a las cámaras",
@@ -823,8 +816,8 @@
             "choiceWindow":              
             {
                 "category": 2,
-                "initX": 2,
-                "initY": -3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Volver al menú",
@@ -880,8 +873,8 @@
             "choiceWindow":              
             {
                 "category": 2,
-                "initX": 4,
-                "initY": 3,
+                "initX": 0,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Volver al menú",
@@ -905,7 +898,7 @@
             {
                 "category": 2,
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Volver al menú",
@@ -943,7 +936,7 @@
             {
                 "category": 2,
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Volver al menú",
@@ -981,7 +974,7 @@
             {
                 "category": 2,
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": " Volver al menú",
@@ -1005,7 +998,7 @@
             {
                 "category": 2,
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Volver al menú",
@@ -1030,7 +1023,7 @@
             {
                 "category": 2,
                 "initX": 0,
-                "initY": -2,
+                "initY": 0,
                 "choices": [
                     {
                         "text": "Volver al menú",
