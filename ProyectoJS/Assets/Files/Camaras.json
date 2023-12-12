@@ -292,13 +292,13 @@
                     "category": 0,
                     "initX": -2,
                     "initY": 2,
-                    "text": "Sin las mejoras para las cámaras los negocios cada vez más van perdiendo la seguridad que obtuvieron al instalarlas."
+                    "text": "Sin las mejoras para las cámaras de seguridad, los negocios van perdiendo poco a poco la seguridad que obtuvieron al instalarlas. Los delincuentes han encontrado formas de burlar la poca seguridad de las cámaras y siguen cometiendo crímenes como si nada."
                 },
                 {
                     "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "Se propone que las cámaras instaladas puedan grabar parte de la vía pública respectiva a su negocio para así poder obtener información como la dirección en la que huyen los posibles delincuentes o su posible método de escape."
+                    "text": "Los empresarios proponen que las cámaras instaladas puedan grabar una parte de la vía pública, en la zona cercana a su negocio. Buscan obtener información como la dirección en la que huyen los delincuentes o su método de escape."
                 }
             ],
             "choiceWindow": {
@@ -307,11 +307,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Mejorar la ley de cámaras en lugares privados",
+                        "text": "Permitir grabar una zona pública",
                         "dst": 8
                     },
                     {
-                        "text": "No mejorar la ley de cámaras en lugares privados",
+                        "text": "Mantener las cámaras como están",
                         "dst": 22
                     }
                 ]
@@ -325,13 +325,21 @@
                     "category": 0,
                     "initX": -2,
                     "initY": 2,
-                    "text": "Las mejoras implementadas en los negocios han conseguido blindarse contra los crímenes. Gracias a que tienen una visión más amplia se ha conseguido que los delincuentes opten por no atracar estos lugares."
+                    "text": "Gracias a las mejoras en la seguridad de los negocios y establecimientos privados, estos han conseguido protegerse contra los criminales. Éstos se han alejado de los negocios pero han vuelto a actuar en la vía pública."
                 },
                 {
                     "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "Se ha propuesto de nuevo implementar cámaras de seguridad en las calles de nuevo. Ya que debido a que los crímenes ya no son cometidos en los establecimientos los números de crímenes en la vía pública ha aumentado sin precedentes."
+                    "text": "Ha vuelto a surgir la propuesta de implementar cámaras de seguridad en la vía pública. Los criminales han vuelto a las calles de manera más intensa que nunca, movidos por el enfado ante los refuerzos de seguridad en las tiendas."
+                }
+            ],
+            "imageWindows": [
+                {
+                    "category": 0,
+                    "initX": -5,
+                    "initY": -3,
+                    "file": "atraco"
                 }
             ],
             "choiceWindow": {
@@ -340,11 +348,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Establecer cámaras de seguridad en la calle",
+                        "text": "Instalar cámaras de seguridad en la vía pública",
                         "dst": 9
                     },
                     {
-                        "text": "No establecer las cámaras en la calle",
+                        "text": "No instalar cámaras en la vía pública",
                         "dst": 22
                     }
                 ]
@@ -357,13 +365,13 @@
                     "category": 0,
                     "initX": -2,
                     "initY": 2,
-                    "text": "Con la instalación de las cámaras de seguridad se ha logrado mantener a los delincuentes más a raya pero estos ahora han pasado a realizar actuar en los lugares más concurridos de la ciudad. Por lo que las cámaras son incapaces de poder observar estos delitos de manera clara."
+                    "text": "Con la instalación de las cámaras de seguridad se ha logrado mantener a los delincuentes a raya. Sin embargo, los criminales han cambiado su táctica y han pasado a actuar en los lugares más concurridos de la ciudad. Las cámaras son incapaces de captar los delitos en estas zonas de manera clara."
                 },
                 {
                     "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "Se ha propuesto implementar una mejora en las cámaras para poder aplacar el crimen. Esto sería añadirles un control facial que permitiría obtener de manera más clara a los delincuentes en la multitud."
+                    "text": "Se ha propuesto implementar una mejora a las cámaras para poder aplacar estos crímenes. Se les quiere añadir un control facial que permitiría diferenciar de manera más clara a los delincuentes en la multitud."
                 }
             ],
             "imageWindows": [
@@ -381,11 +389,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Aceptar la mejora de cámaras",
+                        "text": "Aceptar la mejora de reconocimiento facial",
                         "dst": 10
                     },
                     {
-                        "text": "Denegar la mejora de cámaras",
+                        "text": "Denegar la mejora de reconocimiento facial",
                         "dst": 11
                     }
                 ]
