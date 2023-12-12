@@ -61,13 +61,13 @@
                     "category": 0,
                     "initX": -2,
                     "initY": 1,
-                    "text": "La seguridad en Confidencia se encuentra en niveles críticos. Los delincuentes pasean libremente por la ciudad y los habitantes optan cada vez más por quedarse en sus casas."
+                    "text": "La seguridad en Confidencia se encuentra a niveles críticos. Los delincuentes pasean libremente por la ciudad y los habitantes optan cada vez más por quedarse en sus casas."
                 },
                 {
                     "category": 1,
-                    "initX": 4,
-                    "initY": 2,
-                    "text": "El ministro se ha vuelto a plantear la instalación de las cámaras, con la esperanza de acabar con esta situación de una vez por todas."
+                    "initX": 3,
+                    "initY": 1,
+                    "text": "El ministro se ha vuelto a plantear la instalación de las cámaras de vigilancia, con la esperanza de acabar con esta situación de una vez por todas."
                 }
             ],
             "choiceWindow": {
@@ -93,14 +93,14 @@
                 {
                     "category": 0,
                     "initX": -2,
-                    "initY": 2,
-                    "text": "Los ciudadanos aunque tengan miedo a salir tienen que abastecerse de los recursos necesarios. Por ello se plantea que los propios comercios sean los encargados de la seguridad en estos."
+                    "initY": 1,
+                    "text": "Los ciudadanos tienen que salir a abastecerse de alimentos y otros recursos, a pesar del miedo. Los dueños de los comercios quieren que sus clientes se sientan seguros, por ello han propuesto tener en sus manos el control de la seguridad dentro de sus tiendas."
                 },
                 {
                     "category": 1,
                     "initX": 4,
-                    "initY": 2,
-                    "text": "Se quiere aceptar una ley que permita la instalación de cámaras de seguridad como posible modo de mejora de la seguridad en los comercios privados para poder seguir adelante. ¿Dejar que los comercios instalen cámaras?"
+                    "initY": 1,
+                    "text": "Quieren sacar adelante una ley que permita la instalación de cámaras de seguridad dentro de los establecimientos y tiendas. ¿Debemos dejar que los comercios instalen cámaras en sus recintos privados?"
                 }
             ],
             "choiceWindow": {
@@ -109,11 +109,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Aceptar la ley de la instalación de las cámaras",
+                        "text": "Aceptar la ley de la instalación de cámaras",
                         "dst": 6
                     },
                     {
-                        "text": "Denegar la ley de la instalación de las cámaras",
+                        "text": "Denegar la ley de la instalación de cámaras",
                         "dst": 3
                     }
                 ]
@@ -126,14 +126,14 @@
                 {
                     "category": 0,
                     "initX": -2,
-                    "initY": 2,
-                    "text": "Sin la instalación de las cámaras en los comercios estos se han convertido en un blanco fácil para cometer crímenes sin ser perseguidos."
+                    "initY": 1,
+                    "text": "Sin cámaras de vigilancia en los comercios, estos se han convertido en un blanco fácil para los criminales, atracando a los clientes salen a comprar y aprovechando la falta de vigilancia para saquear los comercios."
                 },
                 {
                     "category": 1,
                     "initX": 4,
-                    "initY": 2,
-                    "text": "Los negocios vuelven a pedir la posibles instalación las cámaras como medida para poder frenar la horda de crímenes que afronta la ciudad."
+                    "initY": 1,
+                    "text": "Los dueños de los negocios, desesperados, vuelven a pedir la instalación de cámaras para poder frenar esta horda de crímenes que afronta la ciudad."
                 }
             ],
             "choiceWindow": {
@@ -142,11 +142,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Aceptar la ley de la identificación",
+                        "text": "Retractarse y aprobar la ley",
                         "dst": 6
                     },
                     {
-                        "text": "Mantener sin aprobar la ley de la instalación de las cámaras",
+                        "text": "Mantenerse firme y denegar la ley",
                         "dst": 4
                     }
                 ]
@@ -159,14 +159,14 @@
                 {
                     "category": 0,
                     "initX": -2,
-                    "initY": 2,
-                    "text": "Sin la aprobación de la ley para las cámaras en lugares públicos los negocios están en una situación crítica y la incertidumbre sobre lo que pasará es abrumadora."
+                    "initY": 1,
+                    "text": "Sin una ley que permita cámaras de seguridad en los establecimientos privados, los negocios están en una situación crítica y la incertidumbre sobre lo que pasará es abrumadora."
                 },
                 {
                     "category": 1,
                     "initX": 4,
-                    "initY": 2,
-                    "text": "Como otra posible propuesta, los dueños de los comercios han solicitado que para poder entrar en los comercios se tendrá que aportar la identificación oficial de cada habitante para poder ver el culpable en caso de que se produzca algún crimen."
+                    "initY": 1,
+                    "text": "En su desesperación, los dueños de los comercios han solicitado que para poder entrar en los comercios sea necesario aportar el carnet de identificación oficial, y así tener una base de datos que permita identificar al culpable en caso de que se produzca algún crimen."
                 }
             ],
             "choiceWindow": {
@@ -175,11 +175,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Aceptar la ley de la identificación",
+                        "text": "Aceptar el requisito de identificación",
                         "dst": 5
                     },
                     {
-                        "text": "Denegar la ley de la identificación",
+                        "text": "Denegar el requisito de identificación",
                         "dst": 20
                     }
                 ]
@@ -788,7 +788,8 @@
                 ]
             }
             
-        },       {
+        },       
+        {
             "id": "20",
             "background": "FONDO4",
             "textWindows": [
@@ -796,7 +797,7 @@
                     "category": 0,
                     "initX": 0,
                     "initY": -2,                
-                    "text": "Confidencia no ha aguantado las crecientes oleadas de crímenes por la que pasaba. Ya no se puede hacer nada al respecto. Las decisiones han permitido que la falta de prevención de la delincuencia haga que esta solo empeore. Los ciudadanos han optado por huir los más lejos posible"
+                    "text": "Confidencia no ha aguantado las crecientes oleadas de crímenes por las que pasaba. Llegados a este punto, es imposible hacer nada para remediarlo. Las decisiones que se han tomado han desencadenado en una falta de prevención, haciendo que la delincuencia no haga más que subir. Los ciudadanos de Confidencia se ven obligados a huir lo más lejos posible."
                 }
             ],
             "imageWindows": [
