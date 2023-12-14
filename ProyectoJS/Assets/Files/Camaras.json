@@ -785,7 +785,7 @@
                     "category": 0,
                     "initX": 4,
                     "initY": 0,                
-                    "text": "Gracias a la mejora de la ley, los crímenes han bajado considerablemente dentro de los negocios. "
+                    "text": "Gracias a la mejora de la ley, los crímenes han bajado considerablemente dentro de los negocios."
                 },
                 {
                     "category": 1,
@@ -828,7 +828,7 @@
                     "category": 0,
                     "initX": 0,
                     "initY": -2,                
-                    "text": "Confidencia no ha aguantado las crecientes oleadas de crímenes por las que pasaba. Llegados a este punto, es imposible hacer nada para remediarlo. Las decisiones que se han tomado han desencadenado en una falta de prevención, haciendo que la delincuencia no haga más que subir. Los ciudadanos de Confidencia se ven obligados a huir lo más lejos posible."
+                    "text": "Confidencia no ha aguantado las crecientes oleadas de crímenes. Llegados a este punto, es imposible hacer nada para remediarlo. Las decisiones que se han tomado han desencadenado en una falta de prevención, haciendo que la delincuencia no haga más que subir. Los ciudadanos de Confidencia se ven obligados a huir lo más lejos posible."
                 }
             ],
             "imageWindows": [
@@ -866,7 +866,13 @@
                     "category": 0,
                     "initX": 0,
                     "initY": -2,                
-                    "text": "Las grandes empresas, gracias a la venta de la información de los negocios, han logrado mejorar tanto la experiencia de los habitantes que los crímenes ya no son un problema. Ahora saben todo de tí y tus gustos. Los cuales han sido modificados por las empresas para poder vender en masa a toda costa. Ya no tienes gustos propios y todo está controlado."
+                    "text": "Las grandes empresas, gracias a la venta de la información obtenida en los negocios pequeños, han logrado mejorar tanto la experiencia de los habitantes que los crímenes ya no son un problema que les preocupe."
+                },
+                {
+                    "category": 0,
+                    "initX": 0,
+                    "initY": -2,                
+                    "text": "Ahora las empresas saben todo sobre tí y tus gustos, los cuales han sido modificados por las empresas para poder vender en masa a toda la población. Ya no tienes gustos propios y todo está controlado por los empresarios más poderosos."
                 }
             ],
             "imageWindows": [
@@ -923,7 +929,7 @@
                     "category": 0,
                     "initX": 4,
                     "initY": -4,                
-                    "text": "Confidencia sigue igual. Nada ha cambiado. Los crímenes de la ciudad no han cesado y aunque los negocios pudieron mejorar en un principio, al no cesar la delincuencia la forma de prevención no fue suficiente. Ya no se puede hacer nada al respecto. Solo queda esperar"
+                    "text": "Confidencia sigue igual. Nada ha cambiado. Los crímenes de la ciudad no han cesado y aunque los negocios pudieron mejorar en un principio, la continua delincuencia ha impedido una recuperación completa. Ya no se puede hacer nada al respecto. Solo queda esperar."
                 }
             ],
             "choiceWindow":              
@@ -947,7 +953,7 @@
                     "category": 0,
                     "initX": 4,
                     "initY": -4,                
-                    "text": "Confidencia ha sido tomada por los militares aprovechando la medida tomada para poder mantener el control y seguridad. No hay crímenes. Los ciudadanos ya no pueden realizar nada sin que esto sea controlado. Cualquier revuelta realizada en contra del sistema es aplacada inmediatamente. Confidencia es el lugar más seguro, pero a qué coste."
+                    "text": "Confidencia ha sido tomada por los militares aprovechando su presencia en el control de la seguridad. No hay crímenes en Confidencia, pero los ciudadanos ya no pueden hacer nada sin ser controlados. Cualquier revuelta realizada en contra del sistema es aplacada inmediatamente. Confidencia es un lugar más seguro, pero a qué precio."
                 }
             ],
             "imageWindows": [
@@ -985,7 +991,7 @@
                     "category": 0,
                     "initX": 4,
                     "initY": -4,                
-                    "text": "Confidencia es un caos total. Al no existir ninguna forma de control ni seguridad para los ciudadanos la ciudad ha caído en el caos. Los delincuentes ya no solo actúan en la vía pública si no que ya nadie está seguro ni en sus casas. La única opción es salir de Confidencia. "
+                    "text": "Confidencia es un caos total. Al no existir ninguna medida de control ni seguridad para los ciudadanos, la ciudad ha quedado sumida en el caos. Los delincuentes ya no solo actúan en la vía pública si no que se adentran en negocios y casas de particulares. La única opción para los habitantes es salir de Confidencia."
                 }
             ],
             "imageWindows": [
@@ -1023,9 +1029,15 @@
                     "category": 0,
                     "initX": 4,
                     "initY": -4,                
-                    "text": "Confidencia es una ciudad segura. Aunque el crimen no se ha erradicado por completo  este se mantiene en un nivel estable. La población se siente controlada y hay gran descontento general. Se ha conseguido bajar la delincuencia pero a coste de la felicidad general."
+                    "text": "Confidencia es una ciudad segura. Aunque el crimen no se ha erradicado por completo, se mantiene en un nivel suficientemente bajo para mantener a la población segura."
+                },
+                {
+                    "category": 0,
+                    "initX": 4,
+                    "initY": -4,                
+                    "text": "Sin embargo, los ciudadanos de Confidencia se sienten controlados y hay gran descontento general. Se ha conseguido bajar la delincuencia pero a coste de la felicidad general."
                 }
-            ],
+                ],
             "choiceWindow":              
             {
                 "category": 2,
@@ -1048,7 +1060,7 @@
                     "category": 0,
                     "initX": 4,
                     "initY": -4,                
-                    "text": "Confidencia es una ciudad segura. Aunque el crimen no se ha erradicado por completo  este se mantiene en un nivel estable. La población se siente controlada y hay gran descontento general. Se ha conseguido bajar la delincuencia pero a coste de la felicidad general."
+                    "text": "Confidencia es una ciudad segura. Aunque el crimen no se ha erradicado por completo, se mantiene en un nivel adecuado y controlable. Los habitantes se sienten controlados y hay gran descontento general. Se ha conseguido bajar la delincuencia pero a coste de la felicidad general."
                 }
             ],
             "choiceWindow":              
