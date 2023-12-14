@@ -184,7 +184,8 @@
                     }
                 ]
             }
-        },   {
+        },   
+        {
             "id": "5",
             "background": "FONDO1",
             "textWindows": [
@@ -263,9 +264,15 @@
             "imageWindows": [
                 {
                     "category": 0,
-                    "initX": -5,
+                    "initX": -4,
                     "initY": -3,
                     "file": "ley1"
+                },
+                {
+                    "category": 0,
+                    "initX": 1,
+                    "initY": 2,
+                    "file": "videoBroke"
                 }
             ],
             "choiceWindow": {
@@ -299,6 +306,14 @@
                     "initX": 4,
                     "initY": 2,
                     "text": "Los empresarios proponen que las cámaras instaladas puedan grabar una parte de la vía pública, en la zona cercana a su negocio. Buscan obtener información como la dirección en la que huyen los delincuentes o su método de escape."
+                }
+            ],
+            "imageWindows" : [
+                {
+                    "category": 0,
+                    "initX": -2,
+                    "initY": 2,
+                    "file": "camBroke"
                 }
             ],
             "choiceWindow": {
@@ -371,7 +386,7 @@
                     "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "Se ha propuesto implementar una mejora a las cámaras para poder aplacar estos crímenes. Se les quiere añadir un control facial que permitiría diferenciar de manera más clara a los delincuentes en la multitud."
+                    "text": "Se ha propuesto implementar una mejora a las cámaras para poder aplacar los crímenes. Se les quiere añadir un control facial que permitiría diferenciar de manera más clara a los delincuentes en la multitud."
                 }
             ],
             "imageWindows": [
@@ -407,13 +422,13 @@
                     "category": 0,
                     "initX": -2,
                     "initY": 2,
-                    "text": "Las mejoras de las cámaras han ayudado a disminuir de una manera eficaz la tasa de delincuencia. Sin embargo, cada vez más los delincuentes se escabullen entre la población y no vuelven a ser localizados."
+                    "text": "Las mejoras de las cámaras han ayudado a disminuir de manera eficaz la tasa de delincuencia. Sin embargo, cada vez es más común que los delincuentes desaparezcan entre la población y no vuelvan a ser localizados."
                 },
                 {
                     "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "Como medida para prevenir esto, se ha propuesto usar la geolocalización de los ciudadanos a través de sus dispositivos digitales si lo tuvieran y así poder localizar de manera eficiente su posición."
+                    "text": "Para prevenir esto, se ha propuesto usar geolocalización para poder localizar a los ciudadanos a través de sus dispositivos digitales y así poder determinar la posición de los criminales."
                 }
             ],
             "choiceWindow": {
@@ -440,13 +455,13 @@
                     "category": 0,
                     "initX": -2,
                     "initY": 2,
-                    "text": "Con las medidas actuales la tasa de delincuencia aunque disminuyera en un principio cada día las estadísticas sobre estas se agravan."
+                    "text": "Con las medidas actuales, la tasa de delincuencia disminuyó en Confidencia. Sin embargo, en la población permanece el sentimiento de inseguridad, y algunos ciudadanos salen poco de casa evitando cualquier situación de ocio. Esto no es bueno para la economía de Confidencia."
                 },
                 {
                     "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "El gobierno ha propuesto aumentar el número de policías en las calles para hacer controles ya que la tecnología no ha sido suficiente. De esta manera se aumentan los controles y los ciudadanos se sentirían más seguros."
+                    "text": "El gobierno ha propuesto una medida que consiste en aumentar el número de agentes de policía en las calles. Defienden que así, los ciudadanos se sentirán más seguros y saldrán a las calles a hacer compras y otras actividades de ocio."
                 }
             ],
             "choiceWindow": {
@@ -455,11 +470,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Aceptar el aumento de la policía en las calles",
+                        "text": "Aceptar el aumento de policías en las calles",
                         "dst": 12
                     },
                     {
-                        "text": "Denegar el aumento de la policía en las calles",
+                        "text": "Denegar el aumento de policías en las calles",
                         "dst": 13
                     }
                 ]
@@ -471,15 +486,21 @@
             "textWindows": [
                 {
                     "category": 0,
-                    "initX": 4,
-                    "initY": -4,
-                    "text": "Con el gran número de policías en la calle los delitos han disminuido de manera eficaz. Sin embargo, son cada vez más las personas que se quejan sobre la incomodidad ante la presencia de estos y quejas sobre cómo piden información “al azar” a las personas que a sus ojos son sospechosas. De esta manera las denuncias a la policía sobre discriminación han aumentado."
+                    "initX": -3,
+                    "initY": 2,
+                    "text": "Con un alto control policial en las calles, los delitos han disminuido mucho y la economía en Confidencia se está recuperando."
+                },
+                {
+                    "category": 0,
+                    "initX": 3,
+                    "initY": 2,
+                    "text": "Sin embargo, son cada vez más las personas que se muestran descontentas ante la presencia policial. Hay muchas quejas sobre los controles aleatorios, afirmando que los hacen a quienes a sus ojos son sospechosas."
                 },
                 {
                     "category": 1,
-                    "initX": 7,
-                    "initY": -4,
-                    "text": "Cada vez hay más disparidad por parte de la población de seguir adelante con la medida o terminar con ella."
+                    "initX": 3,
+                    "initY": 2,
+                    "text": "Hay una gran brecha en la opinión pública sobre si esta medida se debería mantener a largo plazo o disolver cuando la economía y los crímenes se hayan estabilizado."
                 }
             ],
             "imageWindows": [
@@ -497,11 +518,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Mantener el aumento de la policía en las calles",
+                        "text": "Mantener a la policía en las calles",
                         "dst": 14
                     },
                     {
-                        "text": "Acabar con el aumento de la policía en las calles",
+                        "text": "Reducir el número de policías en las calles",
                         "dst": 13
                     }
                 ]
@@ -519,27 +540,27 @@
                 },
                 {
                     "category": 0,
-                    "initX": 7,
+                    "initX": 5,
                     "initY": -4,
-                    "text": "Se ha optado como medida poner un toque de queda a partir de las 12:00 de la noche como última manera para poder controlar los crímenes."
+                    "text": "Se ha presentado una nueva medida para poner un toque de queda a partir de las 12:00 de la noche, como último recurso para controlar la oleada de crímenes."
                 },
                 {
                     "category": 1,
-                    "initX": 7,
-                    "initY": -4,
-                    "text": "Aquí te muestro alguna de las opiniones de los habitantes de Confidencia en base a esta propuesta:"
+                    "initX": 0,
+                    "initY": 1,
+                    "text": "Estas son algunas de las opiniones de los habitantes de Confidencia en base a esta propuesta:"
                 },
                 {
                     "category": 1,
-                    "initX": 7,
-                    "initY": -4,
-                    "text": "“Si se implementa el toque de queda aunque puede que los delitos cambien los ciudadanos se verán cohibidos. Esta medida es muy extrema.”"
+                    "initX": -2,
+                    "initY": -1,
+                    "text": "“Esta medida es demasiado extrema... Si se implementa el toque de queda puede que los delitos disminuyan, pero los ciudadanos se verán completamente reprimidos.”"
                 },
                 {
                     "category": 1,
-                    "initX": 7,
-                    "initY": -4,
-                    "text": "“Es la única solución. En el punto donde nos encontramos es la única forma de poder intentar acabar con la delincuencia. Es un todo o nada.”"
+                    "initX": 2,
+                    "initY": -1,
+                    "text": "“Es la única solución. En el punto donde nos encontramos es la única forma de acabar con la delincuencia. Es un todo o nada y tenemos que soportar esta medida como podamos.”"
                 }
             ],
             "choiceWindow": {
@@ -552,12 +573,13 @@
                         "dst": 18
                     },
                     {
-                        "text": "Negarse al toque de queda",
+                        "text": "Denegar el toque de queda",
                         "dst": 24
                     }
                 ]
             }
-        },      {
+        },      
+        {
             "id": "14",
             "background": "FONDO1",
             "textWindows": [
@@ -566,14 +588,14 @@
 
                     "initX": -2,
                     "initY": 2,
-                    "text": "Al mantener a la policía, la población que se opone a ella realiza revueltas y manifestaciones cada vez más violentas, provocando que esta no se centre en acabar con el crimen."
+                    "text": "Al mantener a la policía en las calles, la población descontenta organiza revueltas y manifestaciones que escalan en violencia. La policía tiene que dirigir más unidades a estas revueltas, provocando que el crimen en Confidencia se mantenga."
                 },
                 {
                     "category": 1,
 
                     "initX": 4,
                     "initY": 2,
-                    "text": "Si no se hace nada pronto se teme que todo acabe fuera de control, sin poder realizar nada al respecto. Se ha planteado el uso de la fuerza militar para apoyar a la policía en esta situación e intentar seguir adelante."
+                    "text": "Si no se actúa pronto, se teme que todo acabe fuera de control, con las calles llenas de manifestantes y criminales, sin poder hacer nada al respecto. Se ha planteado pasar al uso de fuerza militar para apoyar a la policía en esta situación e intentar seguir adelante."
                 }
             ],
             "imageWindows": [
@@ -610,7 +632,7 @@
 
                     "initX": -2,
                     "initY": 2,
-                    "text": "A partir de la geolocalización se ha conseguido controlar a los delincuentes de las zonas más conflictivas de la ciudad. Sin embargo, son cada vez más los que burlan esta seguridad con el uso de aplicaciones externas."
+                    "text": "Con la geolocalización se ha conseguido controlar a los delincuentes de las zonas más conflictivas de la ciudad. Sin embargo, se han popularizado aplicaciones externas desarrolladas por hackers, que permiten a los criminales burlar esta medida de seguridad."
                 },
                 {
                     "category": 1,
@@ -635,11 +657,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Aceptar aumentar el número de policías en la calle",
+                        "text": "Aumentar el número de policías en la calle",
                         "dst": 17
                     },
                     {
-                        "text": "Denegar aumentar el número de policías en la calle",
+                        "text": "Denegar el aumento de policías en la calle",
                         "dst": 16
                     }
                 ]
@@ -654,14 +676,14 @@
 
                     "initX": -2,
                     "initY": 2,
-                    "text": "La geolocalización ya no tiene efecto. Las aplicaciones maliciosas hacen que no se pueda saber si la información recolectada es correcta o errónea. Cada vez más la delincuencia vuelve a estar en los niveles iniciales."
+                    "text": "La geolocalización ya no tiene efecto. Todo el mundo tiene aplicaciones maliciosas hacen que no se pueda saber si la información recolectada es verdadera o falsificada. La delincuencia va alcanzando niveles altos de nuevo."
                 },
                 {
                     "category": 1,
 
                     "initX": 4,
                     "initY": 2,
-                    "text": "Para intentar remediar esto se ha propuesto implantar un toque de queda a partir de las 12:00 de la noche, ya que es en esta hora en la que se producen más delitos."
+                    "text": "Para intentar reducir la delincuencia, se ha propuesto implantar un toque de queda a partir de las 12:00 de la noche, ya que es a partir de esta hora cuando se producen más delitos."
                 }
             ],
             "choiceWindow": {
@@ -689,14 +711,14 @@
 
                     "initX": -2,
                     "initY": 2,
-                    "text": "Gracias a la geolocalización y el control de la policía la tasa de delincuencia está en sus mínimos. Aunque parte de la población se encuentra descontenta con este control, Confidencia nunca ha estado tan cerca de conseguir erradicar toda la delincuencia de una vez por todas."
+                    "text": "Gracias a la geolocalización y el control de la policía la tasa de delincuencia está en niveles mínimos. Aunque parte de la población se encuentra descontenta con el alto nivel de control, Confidencia nunca ha estado tan cerca de la erradicación total de la delincuencia."
                 },
                 {
                     "category": 1,
 
                     "initX": 4,
                     "initY": 2,
-                    "text": "Como última medida se ha planteado implantar un toque de queda a los ciudadanos a partir de las 12:00 de la noche ya que la mayoría de los crímenes se dan de noche. Aunque existen discrepancias parece ser una solución eficaz para acabar con estos."
+                    "text": "Como última medida para erradicar el crimen al cien por cien, se ha propuesto implantar un toque de queda a los ciudadanos a partir de las 12:00 de la noche, ya que los crímenes que aun ocurren se dan por la noche. Aunque hay variedad de opiniones parece ser una solución eficaz para acabar con la criminalidad por completo."
                 }
             ],
             "choiceWindow": {
@@ -709,7 +731,7 @@
                         "dst": 26
                     },
                     {
-                        "text": "Negarse al toque de queda",
+                        "text": "Denegar el toque de queda",
                         "dst": 25
                     }
                 ]
