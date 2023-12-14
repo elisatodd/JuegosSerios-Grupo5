@@ -746,19 +746,19 @@
 
                     "initX": -4,
                     "initY": 2,
-                    "text": "El toque de queda ha hecho que la tasa de criminalidad haya bajado a mínimos. Sin embargo, esta medida ha  causado que la población se haya dividido en dos bandos, los que son partidarios de mantenerlo para acabar de una vez por todas y los que quieren abolirlo por la pérdida de libertades."
+                    "text": "El toque de queda ha ayudado a que la tasa de criminalidad bajase a niveles mínimos en Confidencia. Sin embargo, esta medida ha causado que la población se haya dividido en dos bandos: aquellos que son partidarios de mantener el toque de queda para no correr riesgos, y aquellos que quieren abolirlo para recuperar sus libertades."
                 },
                 {                    
                     "category": 1,
                     "initX": 0,
                     "initY": 2,
-                    "text": "Los conflictos entre las opiniones han causado revueltas y propuestas, generando un estado de caos total."
+                    "text": "Los conflictos entre estos dos bandos han causado numerosas revueltas y conflictos, generando un estado de caos total."
                 },
                 {
                     "category": 1,
                     "initX": 4,
                     "initY": 2,
-                    "text": "El gobierno plantea el uso de fuerza militar para poder paliar estos conflictos."
+                    "text": "El gobierno plantea usar fuerza militar para poder disolver estos conflictos."
                 }
             ],
             "choiceWindow": {
@@ -776,21 +776,22 @@
                     }
                 ]
             }
-        },       {
+        },       
+        {
             "id": "19",
             "background": "FONDO1",
             "textWindows": [
                 {
                     "category": 0,
                     "initX": 4,
-                    "initY": -4,                
-                    "text": "Gracias a la mejora de la ley los crímenes han bajado considerablemente dentro de los negocios. "
+                    "initY": 0,                
+                    "text": "Gracias a la mejora de la ley, los crímenes han bajado considerablemente dentro de los negocios. "
                 },
                 {
                     "category": 1,
                     "initX": 4,
-                    "initY": -4,                
-                    "text": "Por ello ahora se busca la recuperación económica de estos. Se ha planteado el uso por parte de los negocios de la información obtenida para mejorar, con la ayuda de las empresas de los suministros, la experiencia de los compradores de estos negocios."
+                    "initY": 0,                
+                    "text": "Ahora los negocios están buscando la recuperación económica. Los dueños han propuesto hacer uso de la información obtenida a través de las medidas de seguridad para mejorar la experiencia de los clientes."
                 }
             ],
             "imageWindows": [
@@ -808,11 +809,11 @@
                 "initY": 0,
                 "choices": [
                     {
-                        "text": "Mantener las mejoras realizadas a las cámaras",
+                        "text": "Permitir a los empresarios acceder a la información",
                         "dst": 21
                     },
                     {
-                        "text": "Abolir las mejoras",
+                        "text": "Denegarles el acceso a la información",
                         "dst": 22
                     }
                 ]
