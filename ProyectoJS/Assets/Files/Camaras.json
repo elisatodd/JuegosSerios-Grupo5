@@ -432,6 +432,14 @@
           "text": "Para prevenir esto, se ha propuesto usar geolocalización para poder localizar a los ciudadanos a través de sus dispositivos digitales y así poder determinar la posición de los criminales."
         }
       ],
+      "imageWindows": [
+        {
+          "category": 0,
+          "initX": -5,
+          "initY": -3,
+          "file": "geolocalizacion"
+        }
+      ],
       "choiceWindow": {
         "category": 2,
         "initX": 0,
@@ -471,6 +479,12 @@
           "initX": -5,
           "initY": -3,
           "file": "economy"
+        },
+        {
+          "category": 0,
+          "initX": -5,
+          "initY": -3,
+          "file": "policeStreet"
         }
       ],
       "choiceWindow": {
@@ -518,7 +532,7 @@
 
           "initX": -3,
           "initY": 0,
-          "file": "policeStreet"
+          "file": "npPolice"
         },
         {
           "category": 0,
@@ -821,6 +835,12 @@
           "initX": -5,
           "initY": -3,
           "file": "riot"
+        },
+        {
+          "category": 1,
+          "initX": -5,
+          "initY": -3,
+          "file": "militar"
         }
       ],
       "choiceWindow": {
@@ -861,7 +881,7 @@
           "category": 0,
           "initX": -3,
           "initY": 0,
-          "file": "ley1Cambio"
+          "file": "economy"
         }
       ],
       "choiceWindow": {
