@@ -140,12 +140,11 @@ public class TreeManager : MonoBehaviour
                 buttons[i].onClick.AddListener(() => StartCoroutine(loadNode(dst)));
             else
             {
-                buttons[i].onClick.AddListener(() => SceneManager.LoadScene("MainMenu"));
+                SceneChanger sceneChanger = buttons[i].gameObject.AddComponent<SceneChanger>();
+                sceneChanger.setScene("MainMenu");
                 for (int j = i + 1; j < buttons.Length; j++)
                     Destroy(buttons[j].gameObject);
-                break;
-                //SceneChanger sceneChanger = buttons[i].gameObject.AddComponent<SceneChanger>();
-                //sceneChanger.setScene("MainMenu");
+                break;            
             }           
         }
 
