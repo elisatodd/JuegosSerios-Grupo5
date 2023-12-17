@@ -465,6 +465,14 @@
           "text": "El gobierno ha propuesto una medida que consiste en aumentar el número de agentes de policía en las calles. Defienden que así, los ciudadanos se sentirán más seguros y saldrán a las calles a hacer compras y otras actividades de ocio."
         }
       ],
+      "imageWindows": [
+        {
+          "category": 0,
+          "initX": -5,
+          "initY": -3,
+          "file": "economy"
+        }
+      ],
       "choiceWindow": {
         "category": 2,
         "initX": 0,
@@ -708,6 +716,14 @@
           "text": "Para intentar reducir la delincuencia, se ha propuesto implantar un toque de queda a partir de las 12:00 de la noche, ya que es a partir de esta hora cuando se producen más delitos."
         }
       ],
+      "imageWindows": [
+        {
+          "category": 0,
+          "initX": -5,
+          "initY": -3,
+          "file": "phone"
+        }
+      ],
       "choiceWindow": {
         "category": 2,
         "initX": 0,
@@ -797,6 +813,14 @@
           "initX": 4,
           "initY": 2,
           "text": "El gobierno plantea usar fuerza militar para poder disolver estos conflictos."
+        }
+      ],
+      "imageWindows": [
+        {
+          "category": 0,
+          "initX": -5,
+          "initY": -3,
+          "file": "riot"
         }
       ],
       "choiceWindow": {
