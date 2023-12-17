@@ -619,8 +619,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1.03, y: 5.24}
+  m_SizeDelta: {x: -251.99, y: -85.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &127255779062477326
 CanvasRenderer:
@@ -680,9 +680,9 @@ MonoBehaviour:
   m_fontSize: 50
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 60
+  m_fontSizeMax: 50
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -754,8 +754,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.0299988, y: -1.050003}
+  m_SizeDelta: {x: -247.89, y: -60.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &127255779206521386
 CanvasRenderer:
@@ -785,7 +785,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "S\xCD"
+  m_text: si
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 377005306d209c14ca9205a3a189e6b8, type: 2}
   m_sharedMaterial: {fileID: 7338922928430991263, guid: 377005306d209c14ca9205a3a189e6b8, type: 2}
@@ -815,9 +815,9 @@ MonoBehaviour:
   m_fontSize: 50
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 60
+  m_fontSizeMax: 50
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512

@@ -54,7 +54,6 @@ public class TextAnimator : MonoBehaviour
     [SerializeField]
     private FinishEvent finishEvent = new();
 
-
     private void Start()
     {
         audioSourcePool = new List<AudioSource>();
@@ -65,6 +64,11 @@ public class TextAnimator : MonoBehaviour
     private void Update()
     {
         tiempoPasado += Time.deltaTime;
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            velocidadEscritura = 0.005f;
+        }
 
         if (tiempoPasado > velocidadEscritura)
         {
