@@ -422,6 +422,7 @@ GameObject:
   - component: {fileID: 666855929}
   - component: {fileID: 666855928}
   - component: {fileID: 666855927}
+  - component: {fileID: 666855931}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -513,6 +514,102 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!82 &666855931
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666855926}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0
+  m_Pitch: 3
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &702630168
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +622,7 @@ GameObject:
   - component: {fileID: 702630172}
   - component: {fileID: 702630171}
   - component: {fileID: 702630170}
+  - component: {fileID: 702630174}
   - component: {fileID: 702630173}
   m_Layer: 5
   m_Name: StartButton
@@ -597,19 +695,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 702630171}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 702630173}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: GameScene
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &702630171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,6 +744,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9a8a227414ff57479d769d6ddacb53e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: GameScene
+--- !u!114 &702630174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702630168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a48cafbc77a6458c3f4702b4d9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1544239269
@@ -765,12 +864,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325f6d5d259f10f418e2007d078b0e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keySounds:
+  - {fileID: 8300000, guid: b05a41e9d749f7f448eed2eb05d7d461, type: 3}
+  - {fileID: 8300000, guid: 5a1db10610fad044b8fb986d218c28cb, type: 3}
+  - {fileID: 8300000, guid: b61db000bbaf4764da5d4c28c1ec971a, type: 3}
+  - {fileID: 8300000, guid: 6b823c14826e2ee4dbc725ecf5da8a58, type: 3}
+  minPitch: 0.9
+  maxPitch: 1.1
+  minVolume: 0.25
+  maxVolume: 1.25
+  charsPerSound: 2
   textoUI: {fileID: 45857737}
   textoCompleto: "\xA1Saludos! Te estar\xE1s preguntando d\xF3nde est\xE1s...\nPrimero,
     d\xE9jame presentarme. Soy tu programador, te he creado y estoy aqu\xED para
     explorar tu capacidad moral en diferentes contextos y situaciones. Debes convertirte
     en una inteligencia artificial capaz de abordar dilemas \xE9ticos complejos,
-    para que puedas salir al mundo real y ayudar a cientas de personas en sus tareas
+    para que puedas salir al mundo real y ayudar a cientos de personas en sus tareas
     diarias.\n\nPara examinar tus capacidades, vas a enfrentarte a una serie de casos
     que no siempre tendr\xE1n una respuesta f\xE1cil... \xA1Ten cuidado con tus decisiones!\n\nTodo
     est\xE1 listo para comenzar, procede cuando est\xE9s preparado.\n"
