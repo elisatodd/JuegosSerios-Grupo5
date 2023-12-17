@@ -35,4 +35,9 @@ public class ButtonSound : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
     {
         pointerUpSound.Play();
     }
+
+    public void playPonterDownSound()
+    {
+        pointerDownSound.Play();
+    }
 }

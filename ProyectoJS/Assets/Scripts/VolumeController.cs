@@ -1,16 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VolumeController : MonoBehaviour
 {
     private float initialVolume = 1.0f;
     private float volumeIncrement = 0.1f;
-    private bool mute = false;
+
+    [SerializeField]
+    Sprite volumeOn;
+
+    [SerializeField]
+    Sprite volumeOff;
+
+    Image image;
+    ButtonSound buttonSound;
 
     void Start()
     {
-        SetVolume(initialVolume);
+        image = GetComponent<Image>();
+        buttonSound = GetComponent<ButtonSound>();
+
+        if (GameManager.Instance().IsMuted())
+            image.sprite = volumeOff;
     }
 
     public void SetVolume(float volume)
@@ -21,12 +34,21 @@ public class VolumeController : MonoBehaviour
 
     public void ToggleMute()
     {
-        mute = !mute;
-
-        if (mute)
+        if (GameManager.Instance().ToggleMute())
+        {
+            buttonSound.enabled = false;
             SetVolume(0);
+            image.sprite = volumeOff;
+        }
+
         else
+        {
             SetVolume(initialVolume);
+            image.sprite = volumeOn;
+            buttonSound.enabled = true;
+            buttonSound.playPonterDownSound();
+        }
+            
     }
 
     public void LowerVolume()

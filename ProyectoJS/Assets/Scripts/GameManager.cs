@@ -4,25 +4,43 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private static GameManager _instance;
-    public static GameManager Instance
+    private static GameManager intance;
+
+    bool mute;
+
+    public static GameManager Instance()
     {
-        get
-        {
-            return _instance;
-        }
+        return intance;
     }
+
     private void Awake()
     {
-        if (_instance != null && _instance != this)
+        if (intance != null && intance != this)
         {
             Destroy(this.gameObject);
         }
         else
         {
-            _instance = this;
+            intance = this;
             DontDestroyOnLoad(this.gameObject);
         }
+    }
+
+    private void Start()
+    {
+        mute = false;
+    }
+
+    public bool ToggleMute()
+    {
+        mute = !mute;
+
+        return mute;
+    }
+
+    public bool IsMuted()
+    {
+        return mute;
     }
 
 }
