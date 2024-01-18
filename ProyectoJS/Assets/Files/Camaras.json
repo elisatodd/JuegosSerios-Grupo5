@@ -69,6 +69,19 @@
           "initY": 1,
           "text": "El ministro se ha vuelto a plantear la instalación de las cámaras de vigilancia, con la esperanza de acabar con esta situación de una vez por todas."
         }
+      ],"imageWindows": [
+        {
+          "category": 0,
+          "initX": -6,
+          "initY": -2,
+          "file": "delCircular"
+        },
+        {
+          "category": 1,
+          "initX": 2,
+          "initY": -2,
+          "file": "delGraf"
+        }
       ],
       "choiceWindow": {
         "category": 2,
@@ -101,6 +114,14 @@
           "initX": 4,
           "initY": 1,
           "text": "Quieren sacar adelante una ley que permita la instalación de cámaras de seguridad dentro de los establecimientos y tiendas. ¿Debemos dejar que los comercios instalen cámaras en sus recintos privados?"
+        }
+      ],
+      "imageWindows": [
+        {
+          "category": 1,
+          "initX": -6,
+          "initY": -2,
+          "file": "cam"
         }
       ],
       "choiceWindow": {
@@ -136,6 +157,20 @@
           "text": "Los dueños de los negocios, desesperados, vuelven a pedir la instalación de cámaras para poder frenar esta horda de crímenes que afronta la ciudad."
         }
       ],
+      "imageWindows": [
+        {
+          "category": 0,
+          "initX": -6,
+          "initY": -2,
+          "file": "crime2"
+        },
+        {
+          "category": 0,
+          "initX": 2,
+          "initY": -2,
+          "file": "crime3"
+        }
+      ],
       "choiceWindow": {
         "category": 2,
         "initX": 0,
@@ -167,6 +202,20 @@
           "initX": 4,
           "initY": 1,
           "text": "En su desesperación, los dueños de los comercios han solicitado que para poder entrar en los comercios sea necesario aportar el carnet de identificación oficial, y así tener una base de datos que permita identificar al culpable en caso de que se produzca algún crimen."
+        }
+      ],
+      "imageWindows": [
+        {
+          "category": 1,
+          "initX": -6,
+          "initY": -2,
+          "file": "info"
+        },
+        {
+          "category": 0,
+          "initX": 2,
+          "initY": -2,
+          "file": "ley1"
         }
       ],
       "choiceWindow": {
@@ -207,7 +256,7 @@
           "category": 0,
           "initX": -3,
           "initY": -2,
-          "file": "ley1"
+          "file": "ley1Cambio"
         }
       ],
       "choiceWindow": {
